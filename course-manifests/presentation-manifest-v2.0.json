@@ -1,0 +1,704 @@
+{
+  "artifact": "Year 8 Catapult classroom presentation package",
+  "version": "2.0-photo-uplift",
+  "generated": "2026-08-24T00:00:00+10:00",
+  "course": "Year 8 Technology 7–8 (2023) — Engineering technologies and systems",
+  "deckCount": 10,
+  "totalSlides": 80,
+  "authoritativeSourceIds": [
+    "Catapult Booklet 2026.pdf SHA-256 2fd44bec93c0d652f7879c394c8060e5f4b75b3b43e29c64a65a6a3132e8a5c5",
+    "Siege Engine Unit fetched-text SHA-256 5557644675abb3c35243ae0988e5ae1ef8a926b648a53542581699e01f89cf5e",
+    "Catapult course source map v1.0",
+    "Catapult core artefact manifest v1.0",
+    "Year 8 Catapult student theory draft v1.0",
+    "Catapult cultural-source brief — Woomera, Baiame’s Ngunnhu and Budj Bim, checked 24 Aug 2026"
+  ],
+  "visualSystem": "16:9; Arial; Catapult site ink/teal/ochre/rust palette; one retained photo cover and one purposeful image-first visual on each theory slide 3–5. Retrieval, evidence and exit slides remain calm and text-led.",
+  "sourceNotesContract": "Every slide contains a presenter-notes [Sources] block. All 30 theory placements record file, caption, Notice prompt, alt text, source or recoverable generation prompt and website reuse.",
+  "decks": [
+    {
+      "module": 1,
+      "title": "The Catapult Engineering Challenge",
+      "version": "2.0-photo-uplift",
+      "file": "resources/presentations/module-01-catapult-challenge.pptx",
+      "sha256": "ab2aeaef2240037cb2c213e9fe09e3df2723fdb1e7a87212f4044ff9a0098804",
+      "slideCount": 8,
+      "namedTheoryCoverage": [
+        "A system is defined by relationships",
+        "Feedback turns testing into a design loop",
+        "Constraints are boundaries; criteria judge success"
+      ],
+      "visual": {
+        "file": "assets/visuals/catapult-hero-concept.png",
+        "source": "OpenAI image generation for this course, 24 Aug 2026, conceptual only.",
+        "placement": "slide 1"
+      },
+      "theoryVisuals": [
+        {
+          "slide": 3,
+          "section": "A system is defined by relationships",
+          "file": "assets/visuals/theory/m01-system-relationships.png",
+          "caption": "A mechanism works because its parts interact, not because each part exists.",
+          "notice": "Trace how changing the pivot, arm or energy-store position could affect the other parts.",
+          "alt": "Unassembled timber lever pieces, pivot blocks and an elastic loop arranged as an abstract mechanism study on a workshop bench.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Abstract unassembled timber blocks, dowel pivot, separate lever strip and relaxed elastic loop; no complete Catapult or buildable geometry.",
+          "fit": "cover",
+          "reuse": "Website Module 01, matching theory section only."
+        },
+        {
+          "slide": 4,
+          "section": "Feedback turns testing into a design loop",
+          "file": "assets/visuals/theory/m01-feedback-from-observation.png",
+          "caption": "An observed output becomes feedback only when it guides the next decision.",
+          "notice": "Look for the observation that would make a designer keep, question or change one feature.",
+          "alt": "Partial lever teaching model beside blank observation and revision cards arranged as a feedback example.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Partial nonfunctional lever model beside blank observation and revision cards; no results, dimensions or complete design.",
+          "fit": "cover",
+          "reuse": "Website Module 01, matching theory section only."
+        },
+        {
+          "slide": 5,
+          "section": "Constraints are boundaries; criteria judge success",
+          "file": "assets/visuals/theory/m01-criteria-and-evidence.png",
+          "caption": "Constraints set the boundary; criteria need evidence.",
+          "notice": "Separate what the design must work within from what must be observed to judge success.",
+          "alt": "Pine, string, nails and elastic material contained in a tray beside a blank quality-check card and measuring tools at rest.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Confirmed material categories in one tray beside a separate blank quality card and tools at rest; no project form or stock cross-section.",
+          "fit": "cover",
+          "reuse": "Website Module 01, matching theory section only."
+        }
+      ],
+      "presenterNotes": "Present on all 8 slides with teaching points, prompt, misconception, transition and [Sources] block.",
+      "unresolved": [],
+      "qa": {
+        "authoringRender": "PASS",
+        "fullSizeInspection": "PASS",
+        "contactSheetInspection": "PASS",
+        "overflowTest": "PASS",
+        "outOfCanvasElements": 0,
+        "sourcesNotes": "PASS — 8 of 8 populated [Sources] blocks",
+        "imageAltText": "PASS",
+        "finalVerdict": "PASS"
+      },
+      "integrationRoute": "modules/module-01.html",
+      "bytes": 8133254
+    },
+    {
+      "module": 2,
+      "title": "Workshop Readiness, Tools and Materials",
+      "version": "2.0-photo-uplift",
+      "file": "resources/presentations/module-02-workshop-readiness.pptx",
+      "sha256": "8b4ea0ef44235eb3ed18cd9d9c82dab659d6b9ac31255aadd2b33caa487b11b0",
+      "slideCount": 8,
+      "namedTheoryCoverage": [
+        "Risk depends on the situation",
+        "Choose tools by the function required",
+        "Pine and elastic materials do not behave identically"
+      ],
+      "visual": {
+        "file": "assets/visuals/catapult-materials-workshop.png",
+        "source": "OpenAI image generation for this course, 24 Aug 2026, conceptual only.",
+        "placement": "slide 1"
+      },
+      "theoryVisuals": [
+        {
+          "slide": 3,
+          "section": "Risk depends on the situation",
+          "file": "assets/visuals/theory/m02-risk-context-control.png",
+          "caption": "Risk depends on the task, condition, people and controls—not the object alone.",
+          "notice": "Identify the hazard, then ask what context and teacher-approved control change the decision.",
+          "alt": "Inactive workshop tool, material sample, clear workspace marker and blank teacher-check card arranged for a safety briefing.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Unplugged palm sander safely supported on a mat, material sample, workspace boundary and blank teacher card; no tool use or PPE claim.",
+          "fit": "cover",
+          "reuse": "Website Module 02, matching theory section only."
+        },
+        {
+          "slide": 4,
+          "section": "Choose tools by the function required",
+          "file": "assets/visuals/theory/m02-tools-by-function.png",
+          "caption": "Start with the function, then choose the approved process and check its result.",
+          "notice": "Match the required job to material, access and evidence—not to the most powerful tool.",
+          "alt": "Measuring, holding, material-changing and joining tool categories arranged safely at rest beside a pine sample.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Representative measuring, holding, material-changing and joining tool categories safely at rest around one pine specimen.",
+          "fit": "cover",
+          "reuse": "Website Module 02, matching theory section only."
+        },
+        {
+          "slide": 5,
+          "section": "Pine and elastic materials do not behave identically",
+          "file": "assets/visuals/theory/m02-pine-elastic-behaviour.png",
+          "caption": "Material names are not enough; inspect grain, condition, deformation and recovery.",
+          "notice": "Compare natural variation in pine with temporary and permanent change in an elastic material.",
+          "alt": "Close-up of pine samples with different grain features beside relaxed and permanently misshapen elastic loops.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Macro comparison of varied pine grain and knots beside relaxed and permanently misshapen elastic loops, all at rest.",
+          "fit": "cover",
+          "reuse": "Website Module 02, matching theory section only."
+        }
+      ],
+      "presenterNotes": "Present on all 8 slides with teaching points, prompt, misconception, transition and [Sources] block.",
+      "unresolved": [],
+      "qa": {
+        "authoringRender": "PASS",
+        "fullSizeInspection": "PASS",
+        "contactSheetInspection": "PASS",
+        "overflowTest": "PASS",
+        "outOfCanvasElements": 0,
+        "sourcesNotes": "PASS — 8 of 8 populated [Sources] blocks",
+        "imageAltText": "PASS",
+        "finalVerdict": "PASS"
+      },
+      "integrationRoute": "modules/module-02.html",
+      "bytes": 9465412
+    },
+    {
+      "module": 3,
+      "title": "Siege Engines, Levers and the Woomera",
+      "version": "2.0-photo-uplift",
+      "file": "resources/presentations/module-03-levers-and-woomera.pptx",
+      "sha256": "0ec83855eefe2ea9ce0e2086a892c58c0ac333205bc5e5021e9d3162c2c05a19",
+      "slideCount": 8,
+      "namedTheoryCoverage": [
+        "Similar outputs can begin with different energy stores",
+        "A moment combines force and distance",
+        "Jared Thomas explains lever action in context"
+      ],
+      "visual": {
+        "file": "assets/visuals/lever-moment-still-life.png",
+        "source": "OpenAI image generation for this course, 24 Aug 2026, conceptual only.",
+        "placement": "slide 1"
+      },
+      "theoryVisuals": [
+        {
+          "slide": 3,
+          "section": "Similar outputs can begin with different energy stores",
+          "file": "assets/visuals/theory/m03-energy-store-models.png",
+          "caption": "Different systems can seek similar movement while storing energy in different ways.",
+          "notice": "Identify where torsional and gravitational potential energy would be stored; these are mechanism models, not historical reconstructions.",
+          "alt": "Two museum-style mechanism models: a twisted-cord axle and a raised-weight lever, both inactive and without projectiles.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Two neutral museum-style mechanism models, twisted-cord axle and securely supported raised-weight lever; inactive, no projectile or historical reconstruction.",
+          "fit": "cover",
+          "reuse": "Website Module 03, matching theory section only."
+        },
+        {
+          "slide": 4,
+          "section": "A moment combines force and distance",
+          "file": "assets/visuals/theory/m03-lever-distance.png",
+          "caption": "A moment depends on force and perpendicular distance from the pivot.",
+          "notice": "Compare the two arm lengths and predict how moving the effort point changes the trade-off.",
+          "alt": "Top-down lever model with a central pivot and neutral loads placed at unequal distances.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Top-down neutral ruler lever on a simple pivot with equal neutral loads at unequal distances; no labels, values or result.",
+          "fit": "cover",
+          "reuse": "Website Module 03, matching theory section only."
+        },
+        {
+          "slide": 5,
+          "section": "Jared Thomas explains lever action in context",
+          "file": "assets/visuals/presentation/woomeras-museum-display-vicpeters.png",
+          "caption": "Museum display photograph; forms vary and the objects are not presented as one universal account.",
+          "notice": "Begin with Jared Thomas’s attributed explanation; use the photograph only to notice that forms vary.",
+          "alt": "Several spear-throwers displayed in a museum case; cultural provenance is not provided on the image source.",
+          "source": "Woomeras (spear-throwers) at American Museum of Natural History, Vicpeters, 14 May 2025, CC BY 4.0, via Wikimedia Commons. File-format conversion to PNG only; no crop. Object provenance is not supplied; this display does not represent all Countries or Jared Thomas’s Country.",
+          "fit": "contain",
+          "reuse": "Website Module 03, matching theory section only."
+        }
+      ],
+      "presenterNotes": "Present on all 8 slides with teaching points, prompt, misconception, transition and [Sources] block.",
+      "unresolved": [],
+      "qa": {
+        "authoringRender": "PASS",
+        "fullSizeInspection": "PASS",
+        "contactSheetInspection": "PASS",
+        "overflowTest": "PASS",
+        "outOfCanvasElements": 0,
+        "sourcesNotes": "PASS — 8 of 8 populated [Sources] blocks",
+        "imageAltText": "PASS",
+        "finalVerdict": "PASS"
+      },
+      "integrationRoute": "modules/module-03.html",
+      "bytes": 26577165
+    },
+    {
+      "module": 4,
+      "title": "Force, Motion, Energy and Prototypes",
+      "version": "2.0-photo-uplift",
+      "file": "resources/presentations/module-04-force-motion-energy.pptx",
+      "sha256": "8a6796c58e0b02040b1e89b1daff259538dae3a652d3966900026b8bc26e64ac",
+      "slideCount": 8,
+      "namedTheoryCoverage": [
+        "Energy transfers through useful and unwanted pathways",
+        "Newton’s laws describe different parts of one event",
+        "A prototype earns value through a clear question"
+      ],
+      "visual": {
+        "file": "assets/visuals/elastic-energy-still-life.png",
+        "source": "OpenAI image generation for this course, 24 Aug 2026, conceptual only.",
+        "placement": "slide 1"
+      },
+      "theoryVisuals": [
+        {
+          "slide": 3,
+          "section": "Energy transfers through useful and unwanted pathways",
+          "file": "assets/visuals/theory/m04-energy-pathways.png",
+          "caption": "Stored elastic energy can become intended motion and also spread through sound, vibration and heat.",
+          "notice": "Find the intended moving relationship and one pathway where energy could spread elsewhere.",
+          "alt": "Contained elastic teaching mechanism at rest with a lightly deformed elastic element and lever against a padded stop.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Guarded macro of an incomplete elastic relationship lightly deformed against a padded stop; inactive and without projectile or release.",
+          "fit": "cover",
+          "reuse": "Website Module 04, matching theory section only."
+        },
+        {
+          "slide": 4,
+          "section": "Newton’s laws describe different parts of one event",
+          "file": "assets/visuals/theory/m04-newton-observations.png",
+          "caption": "Newton’s laws answer different questions about motion and interactions.",
+          "notice": "Separate the object whose motion changes from the two objects in a force pair.",
+          "alt": "Three-panel tabletop physics scene showing a stationary trolley, a trolley connected to a spring pull and two trolleys in contact.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Three photographic classroom trolley observations: rest, spring pull and contact between two trolleys; no numbers, procedure or result.",
+          "fit": "cover",
+          "reuse": "Website Module 04, matching theory section only."
+        },
+        {
+          "slide": 5,
+          "section": "A prototype earns value through a clear question",
+          "file": "assets/visuals/theory/m04-one-change-prototypes.png",
+          "caption": "A fair comparison changes one feature and holds important conditions steady.",
+          "notice": "Find the one changed feature and the details that must remain consistent.",
+          "alt": "Two nonfunctional cardboard lever prototypes at rest with one visible design difference and blank observation cards.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Paired nonfunctional cardboard lever prototypes identical except for one visible relationship, with blank observation cards and no test result.",
+          "fit": "cover",
+          "reuse": "Website Module 04, matching theory section only."
+        }
+      ],
+      "presenterNotes": "Present on all 8 slides with teaching points, prompt, misconception, transition and [Sources] block.",
+      "unresolved": [],
+      "qa": {
+        "authoringRender": "PASS",
+        "fullSizeInspection": "PASS",
+        "contactSheetInspection": "PASS",
+        "overflowTest": "PASS",
+        "outOfCanvasElements": 0,
+        "sourcesNotes": "PASS — 8 of 8 populated [Sources] blocks",
+        "imageAltText": "PASS",
+        "finalVerdict": "PASS"
+      },
+      "integrationRoute": "modules/module-04.html",
+      "bytes": 7358112
+    },
+    {
+      "module": 5,
+      "title": "Communicating a Buildable Design",
+      "version": "2.0-photo-uplift",
+      "file": "resources/presentations/module-05-buildable-design.pptx",
+      "sha256": "49fd06230967fad2c6d82e0224715e51fcfa1dbd67ae19288cc6bb7fb58ba643",
+      "slideCount": 8,
+      "namedTheoryCoverage": [
+        "Strong selection begins with genuinely different ideas",
+        "Every view must describe the same object",
+        "A cutting list links drawings to material decisions"
+      ],
+      "visual": {
+        "file": "assets/visuals/catapult-design-drawing-concept.png",
+        "source": "OpenAI image generation for this course, 24 Aug 2026, conceptual only.",
+        "placement": "slide 1"
+      },
+      "theoryVisuals": [
+        {
+          "slide": 3,
+          "section": "Strong selection begins with genuinely different ideas",
+          "file": "assets/visuals/theory/m05-genuine-alternatives.png",
+          "caption": "Selection begins with genuinely different system ideas, then uses evidence and trade-offs.",
+          "notice": "Look for differences in component relationships—not colour or decoration.",
+          "alt": "Four nonfunctional cardboard lever maquettes with different component arrangements beside blank comparison tokens.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Four genuinely different nonfunctional cardboard lever studies with blank comparison tokens; no complete Catapult, dimensions or student folio.",
+          "fit": "cover",
+          "reuse": "Website Module 05, matching theory section only."
+        },
+        {
+          "slide": 4,
+          "section": "Every view must describe the same object",
+          "file": "assets/visuals/theory/m05-agreeing-views.png",
+          "caption": "Every view must describe the same object.",
+          "notice": "Trace one feature across the front, top and side views and check that its position agrees.",
+          "alt": "Simple stepped wooden block model beside three consistent orthographic outline views on clean paper.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Generic stepped block beside newly created front, top and side outline views; no dimensions, project form or copied source drawing.",
+          "fit": "cover",
+          "reuse": "Website Module 05, matching theory section only."
+        },
+        {
+          "slide": 5,
+          "section": "A cutting list links drawings to material decisions",
+          "file": "assets/visuals/theory/m05-drawing-to-cutting-list.png",
+          "caption": "A cutting list connects each drawn component to material, quantity and total length.",
+          "notice": "Check that every component is traceable to a view and that row totals reconcile with the confirmed limit.",
+          "alt": "Generic wooden component samples beside a blank cutting-list grid, ruler and calculator.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Generic component samples beside blank planning cards, ruler and unlabelled calculator; no project parts, lengths, totals or readable text.",
+          "fit": "cover",
+          "reuse": "Website Module 05, matching theory section only."
+        }
+      ],
+      "presenterNotes": "Present on all 8 slides with teaching points, prompt, misconception, transition and [Sources] block.",
+      "unresolved": [],
+      "qa": {
+        "authoringRender": "PASS",
+        "fullSizeInspection": "PASS",
+        "contactSheetInspection": "PASS",
+        "overflowTest": "PASS",
+        "outOfCanvasElements": 0,
+        "sourcesNotes": "PASS — 8 of 8 populated [Sources] blocks",
+        "imageAltText": "PASS",
+        "finalVerdict": "PASS"
+      },
+      "integrationRoute": "modules/module-05.html",
+      "bytes": 8184943
+    },
+    {
+      "module": 6,
+      "title": "Producing the Base and Frame",
+      "version": "2.0-photo-uplift",
+      "file": "resources/presentations/module-06-base-and-frame.pptx",
+      "sha256": "88526ec33e8c20fbdb48b8bfcf7c8ee04b6c49babd188ceb3a2a3b16892938cf",
+      "slideCount": 8,
+      "namedTheoryCoverage": [
+        "Dependencies determine a sensible sequence",
+        "Structures carry forces along load paths",
+        "Quality evidence should show relationships between parts"
+      ],
+      "visual": {
+        "file": "assets/visuals/radiata-pine-grain-samples.png",
+        "source": "OpenAI image generation for this course, 24 Aug 2026, conceptual only.",
+        "placement": "slide 1"
+      },
+      "theoryVisuals": [
+        {
+          "slide": 3,
+          "section": "Dependencies determine a sensible sequence",
+          "file": "assets/visuals/theory/m06-check-before-next-stage.png",
+          "caption": "A checkpoint protects the next dependent stage from an earlier mismatch.",
+          "notice": "Identify what must be checked before the set-aside components can sensibly be added.",
+          "alt": "Partial generic timber frame corner beside a square while later components remain set aside.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Loose partial timber corner relationship checked with a square while later components remain set aside; no joinery or sequence.",
+          "fit": "cover",
+          "reuse": "Website Module 06, matching theory section only."
+        },
+        {
+          "slide": 4,
+          "section": "Structures carry forces along load paths",
+          "file": "assets/visuals/theory/m06-load-path-model.png",
+          "caption": "Loads travel through connected members and joints towards supports.",
+          "notice": "Follow where the applied load could travel and locate an interface that might interrupt the path.",
+          "alt": "Small triangular timber teaching frame supporting a light neutral block above two broad base supports.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Abstract triangular timber teaching frame supporting a light neutral block above broad supports; no Catapult geometry or strength claim.",
+          "fit": "cover",
+          "reuse": "Website Module 06, matching theory section only."
+        },
+        {
+          "slide": 5,
+          "section": "Quality evidence should show relationships between parts",
+          "file": "assets/visuals/theory/m06-quality-evidence.png",
+          "caption": "Quality evidence records the relationship checked, the observation and the reason for any adjustment.",
+          "notice": "Look for a clear subject and the feature that the evidence would need to explain.",
+          "alt": "Partial generic timber frame beside a square, camera and blank caption card arranged as a quality-evidence example.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Partial generic frame, square, unmarked camera and blank evidence card; no drilled holes, controls, student work or pass claim.",
+          "fit": "cover",
+          "reuse": "Website Module 06, matching theory section only."
+        }
+      ],
+      "presenterNotes": "Present on all 8 slides with teaching points, prompt, misconception, transition and [Sources] block.",
+      "unresolved": [],
+      "qa": {
+        "authoringRender": "PASS",
+        "fullSizeInspection": "PASS",
+        "contactSheetInspection": "PASS",
+        "overflowTest": "PASS",
+        "outOfCanvasElements": 0,
+        "sourcesNotes": "PASS — 8 of 8 populated [Sources] blocks",
+        "imageAltText": "PASS",
+        "finalVerdict": "PASS"
+      },
+      "integrationRoute": "modules/module-06.html",
+      "bytes": 8897808
+    },
+    {
+      "module": 7,
+      "title": "Components, Assembly and Quality",
+      "version": "2.0-photo-uplift",
+      "file": "resources/presentations/module-07-assembly-quality.pptx",
+      "sha256": "d126383027e8d570a94f06daf423e7caa135d1fc3134cda14780ce01f095ec18",
+      "slideCount": 8,
+      "namedTheoryCoverage": [
+        "Component functions form an interaction chain",
+        "Alignment, fit and friction shape quality",
+        "One controlled adjustment protects cause and effect"
+      ],
+      "visual": {
+        "file": "assets/visuals/catapult-assembly-quality.png",
+        "source": "OpenAI image generation for this course, 24 Aug 2026, conceptual only.",
+        "placement": "slide 1"
+      },
+      "theoryVisuals": [
+        {
+          "slide": 3,
+          "section": "Component functions form an interaction chain",
+          "file": "assets/visuals/theory/m07-component-interaction.png",
+          "caption": "Changing one interface can alter alignment, clearance, friction and forces elsewhere.",
+          "notice": "Trace the chain from support to pivot to motion without treating the close-up as a build instruction.",
+          "alt": "Close-up of an incomplete axle-and-lever teaching model showing supports, a dowel pivot and a separate elastic loop.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Tight macro of an incomplete support, dowel and short lever relationship with a separate elastic loop; cropped, inactive and non-prescriptive.",
+          "fit": "cover",
+          "reuse": "Website Module 07, matching theory section only."
+        },
+        {
+          "slide": 4,
+          "section": "Alignment, fit and friction shape quality",
+          "file": "assets/visuals/theory/m07-alignment-comparison.png",
+          "caption": "Alignment and fit shape movement; friction may be useful or unwanted depending on function.",
+          "notice": "Compare centrelines, clearance and contact; do not judge quality from neat appearance alone.",
+          "alt": "Paired close-ups of abstract timber supports, one aligned around a dowel and one visibly misaligned.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Split photographic comparison of two abstract paired-support models, one aligned and one misaligned; no tolerances or adjustment method.",
+          "fit": "cover",
+          "reuse": "Website Module 07, matching theory section only."
+        },
+        {
+          "slide": 5,
+          "section": "One controlled adjustment protects cause and effect",
+          "file": "assets/visuals/theory/m07-one-controlled-change.png",
+          "caption": "One controlled adjustment preserves cause-and-effect evidence.",
+          "notice": "Find the single visible change and identify what should be rechecked before making another.",
+          "alt": "Before-and-after views of the same abstract timber interface with one spacer position changed.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Photographic diptych of the same abstract interface with one spacer repositioned and everything else unchanged; no result claim.",
+          "fit": "cover",
+          "reuse": "Website Module 07, matching theory section only."
+        }
+      ],
+      "presenterNotes": "Present on all 8 slides with teaching points, prompt, misconception, transition and [Sources] block.",
+      "unresolved": [],
+      "qa": {
+        "authoringRender": "PASS",
+        "fullSizeInspection": "PASS",
+        "contactSheetInspection": "PASS",
+        "overflowTest": "PASS",
+        "outOfCanvasElements": 0,
+        "sourcesNotes": "PASS — 8 of 8 populated [Sources] blocks",
+        "imageAltText": "PASS",
+        "finalVerdict": "PASS"
+      },
+      "integrationRoute": "modules/module-07.html",
+      "bytes": 7962739
+    },
+    {
+      "module": 8,
+      "title": "Testing, Data and Redesign",
+      "version": "2.0-photo-uplift",
+      "file": "resources/presentations/module-08-testing-redesign.pptx",
+      "sha256": "12d5a4992f12d5bc22f1d0986877829a719f09576f4e8a24a835b82849ceb669",
+      "slideCount": 8,
+      "namedTheoryCoverage": [
+        "A testable question separates the variables",
+        "Mean and range answer different questions",
+        "Redesign is a claim tested against evidence"
+      ],
+      "visual": {
+        "file": "assets/visuals/catapult-fair-testing-concept.png",
+        "source": "OpenAI image generation for this course, 24 Aug 2026, conceptual only.",
+        "placement": "slide 1"
+      },
+      "theoryVisuals": [
+        {
+          "slide": 3,
+          "section": "A testable question separates the variables",
+          "file": "assets/visuals/theory/m08-one-variable.png",
+          "caption": "A testable question names one change, one response and the conditions held steady.",
+          "notice": "Identify the feature intended to change and the details that must remain controlled.",
+          "alt": "Unloaded lever teaching rig with one interchangeable feature and fixed blank reference markers.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Unloaded nonfunctional lever teaching rig with one interchangeable feature and fixed blank reference markers; no projectile or procedure.",
+          "fit": "cover",
+          "reuse": "Website Module 08, matching theory section only."
+        },
+        {
+          "slide": 4,
+          "section": "Mean and range answer different questions",
+          "file": "assets/visuals/theory/m08-repeated-setups.png",
+          "caption": "Repeated trials can reveal pattern and variation; one trial is only an event.",
+          "notice": "Compare the repeated setup and look for evidence that the important conditions stayed consistent.",
+          "alt": "Three identical unloaded lever-test setups viewed from the same angle beside blank record cards.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Three identical unloaded observation setups from the same angle with blank cards; no numbers, results, anomalies or performance claim.",
+          "fit": "cover",
+          "reuse": "Website Module 08, matching theory section only."
+        },
+        {
+          "slide": 5,
+          "section": "Redesign is a claim tested against evidence",
+          "file": "assets/visuals/theory/m08-evidence-led-redesign.png",
+          "caption": "A redesign should target a likely cause and then be tested against the same measure.",
+          "notice": "Find the single changed feature and predict which evidence would confirm or challenge the claim.",
+          "alt": "Before-and-after partial timber interface models with one visible relationship changed and blank evidence cards.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Sparse before-and-after partial interfaces with one visible relationship changed and blank evidence cards; no complete design or result.",
+          "fit": "cover",
+          "reuse": "Website Module 08, matching theory section only."
+        }
+      ],
+      "presenterNotes": "Present on all 8 slides with teaching points, prompt, misconception, transition and [Sources] block.",
+      "unresolved": [],
+      "qa": {
+        "authoringRender": "PASS",
+        "fullSizeInspection": "PASS",
+        "contactSheetInspection": "PASS",
+        "overflowTest": "PASS",
+        "outOfCanvasElements": 0,
+        "sourcesNotes": "PASS — 8 of 8 populated [Sources] blocks",
+        "imageAltText": "PASS",
+        "finalVerdict": "PASS"
+      },
+      "integrationRoute": "modules/module-08.html",
+      "bytes": 7371339
+    },
+    {
+      "module": 9,
+      "title": "Engineering Report and Sustainability",
+      "version": "2.0-photo-uplift",
+      "file": "resources/presentations/module-09-report-sustainability.pptx",
+      "sha256": "f473e535105c129647e045019974bc9955c2cafb40966d221a79e7c8ebc631e3",
+      "slideCount": 8,
+      "namedTheoryCoverage": [
+        "A report follows the design journey",
+        "Claim, evidence and reasoning build credibility",
+        "Sustainability is a life-cycle judgement"
+      ],
+      "visual": {
+        "file": "assets/visuals/timber-life-cycle-still-life.png",
+        "source": "OpenAI image generation for this course, 24 Aug 2026, conceptual only.",
+        "placement": "slide 1"
+      },
+      "theoryVisuals": [
+        {
+          "slide": 3,
+          "section": "A report follows the design journey",
+          "file": "assets/visuals/theory/m09-report-evidence-journey.png",
+          "caption": "An engineering report follows the evidence from need and decisions to testing, evaluation and conclusion.",
+          "notice": "Trace which record answers each stage and where a limitation would be acknowledged.",
+          "alt": "Teacher-created report evidence sequence with a brief folder, concept card, production photo, blank results sheet and conclusion notebook.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Teacher-created photo-essay desk arranged left to right with brief folder, concept, production photo, blank results sheet, repair item and conclusion notebook.",
+          "fit": "cover",
+          "reuse": "Website Module 09, matching theory section only."
+        },
+        {
+          "slide": 4,
+          "section": "Claim, evidence and reasoning build credibility",
+          "file": "assets/visuals/theory/m09-claim-evidence-reasoning.png",
+          "caption": "A claim gains credibility when selected evidence is connected to engineering reasoning.",
+          "notice": "Identify the one feature the evidence shows and the idea needed to explain why it matters.",
+          "alt": "Close-up pine feature beside one photo print, a blank observation card and an open notebook.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Close-up generic pine feature beside one teacher-created photo print, blank observation card and open blank notebook; no claim, result or student work.",
+          "fit": "cover",
+          "reuse": "Website Module 09, matching theory section only."
+        },
+        {
+          "slide": 5,
+          "section": "Sustainability is a life-cycle judgement",
+          "file": "assets/visuals/theory/m09-life-cycle-judgement.png",
+          "caption": "Sustainability is a life-cycle judgement across environmental, social and economic trade-offs.",
+          "notice": "Look beyond the material label: consider sourcing, waste, useful life, repair and end of life.",
+          "alt": "Generic timber object beside a worn replaceable part, simple repair materials and sorted reusable offcuts.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Durable generic timber object beside a worn replaceable part, repair materials and reusable offcuts; no certification or green claim.",
+          "fit": "cover",
+          "reuse": "Website Module 09, matching theory section only."
+        }
+      ],
+      "presenterNotes": "Present on all 8 slides with teaching points, prompt, misconception, transition and [Sources] block.",
+      "unresolved": [],
+      "qa": {
+        "authoringRender": "PASS",
+        "fullSizeInspection": "PASS",
+        "contactSheetInspection": "PASS",
+        "overflowTest": "PASS",
+        "outOfCanvasElements": 0,
+        "sourcesNotes": "PASS — 8 of 8 populated [Sources] blocks",
+        "imageAltText": "PASS",
+        "finalVerdict": "PASS"
+      },
+      "integrationRoute": "modules/module-09.html",
+      "bytes": 8415801
+    },
+    {
+      "module": 10,
+      "title": "Demonstration, Evaluation and Connected Systems",
+      "version": "2.0-photo-uplift",
+      "file": "resources/presentations/module-10-connected-systems.pptx",
+      "sha256": "81c92b7de82416f224a9c54781cda410cf242e4879a9ff93913aeb42af469f1e",
+      "slideCount": 8,
+      "namedTheoryCoverage": [
+        "A demonstration directs attention to evidence",
+        "Evaluation links a criterion to a realistic improvement",
+        "Custodianship and continuing knowledge are part of the system"
+      ],
+      "visual": {
+        "file": "assets/visuals/prototype-redesign-sequence.png",
+        "source": "OpenAI image generation for this course, 24 Aug 2026, conceptual only.",
+        "placement": "slide 1"
+      },
+      "theoryVisuals": [
+        {
+          "slide": 3,
+          "section": "A demonstration directs attention to evidence",
+          "file": "assets/visuals/theory/m10-evidence-centred-demonstration.png",
+          "caption": "A demonstration directs attention to purpose, relationships and evidence—not maximum performance.",
+          "notice": "Decide what the audience should watch and which observation would connect to the design decision.",
+          "alt": "Unloaded lever teaching model beside a camera, blank observation card and pointer aimed at one component relationship.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Unloaded abstract lever teaching model behind a clear boundary with camera, blank card and pointer; no person, projectile, launch or result.",
+          "fit": "cover",
+          "reuse": "Website Module 10, matching theory section only."
+        },
+        {
+          "slide": 4,
+          "section": "Evaluation links a criterion to a realistic improvement",
+          "file": "assets/visuals/theory/m10-evaluation-to-improvement.png",
+          "caption": "Evaluation links a confirmed criterion to evidence, judgement and a realistic improvement.",
+          "notice": "Trace one criterion through the evidence and locate the improvement tied to a likely cause.",
+          "alt": "Generic prototype segment beside one selected evidence photo and a separate possible replacement piece.",
+          "source": "OpenAI image generation for this course, 24 Aug 2026; conceptual teaching still life; final prompt: Generic nonfunctional prototype segment beside one selected teacher-created photo and separate possible replacement piece; no criterion text or result.",
+          "fit": "cover",
+          "reuse": "Website Module 10, matching theory section only."
+        },
+        {
+          "slide": 5,
+          "section": "Custodianship and continuing knowledge are part of the system",
+          "file": "assets/visuals/presentation/baiames-ngunnhu-brewarrina.png",
+          "caption": "Baiame’s Ngunnhu / Brewarrina Aboriginal Fish Traps.",
+          "notice": "Notice the relationship among river flow, stone walls and pools, then read the named Ngemba custodianship and wider cultural context.",
+          "alt": "Low dry-stone walls and pools forming part of Baiame’s Ngunnhu in the Barwon River at Brewarrina.",
+          "source": "Baiame’s Ngunnhu / Brewarrina Aboriginal Fish Traps. B. Hanna, © State of New South Wales and Office of Environment and Heritage, CC BY 4.0, via Wikimedia Commons. File-format conversion to PNG only; no crop.",
+          "fit": "contain",
+          "reuse": "Website Module 10, matching theory section only."
+        }
+      ],
+      "presenterNotes": "Present on all 8 slides with teaching points, prompt, misconception, transition and [Sources] block.",
+      "unresolved": [],
+      "qa": {
+        "authoringRender": "PASS",
+        "fullSizeInspection": "PASS",
+        "contactSheetInspection": "PASS",
+        "overflowTest": "PASS",
+        "outOfCanvasElements": 0,
+        "sourcesNotes": "PASS — 8 of 8 populated [Sources] blocks",
+        "imageAltText": "PASS",
+        "finalVerdict": "PASS"
+      },
+      "integrationRoute": "modules/module-10.html",
+      "bytes": 6505919
+    }
+  ],
+  "overallVerdict": "PASS",
+  "independentQa": {
+    "decksChecked": 10,
+    "slidesChecked": 80,
+    "finalRendersPresent": 80,
+    "theorySlidesChecked": 30,
+    "theoryImageObjects": 30,
+    "overflowFailures": 0,
+    "missingSourceNotes": 0,
+    "missingAltText": 0,
+    "oldDiagramTheoryReferences": 0,
+    "culturalSourceSlides": "PASS — Module 03 slide 5 and Module 10 slide 5 use contain, have no OOXML crop and retain visible attribution/context."
+  },
+  "authoringEnvironmentNotice": "The bundled Windows artifact runtime raises a native cleanup exception after files are fully written. Every output was independently reopened, rendered and validated; this notice does not mask a missing or failed deck."
+}

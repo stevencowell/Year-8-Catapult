@@ -573,6 +573,7 @@ code {
 }
 
 .visual-figure figcaption { padding: .75rem .4rem .25rem; color: var(--muted); font-size: .92rem; }
+.visual-figure .notice-prompt { display: block; margin-top: .35rem; }
 .visual-figure .open-larger { display: inline-flex; min-height: 44px; align-items: center; margin-top: .35rem; font-weight: 800; }
 
 .worked-example,
