@@ -470,6 +470,25 @@ code {
 .module-hero .eyebrow { color: #ffd980; }
 .module-hero .lede { color: #e5f0f2; }
 
+.module-presentation {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.5rem;
+  align-items: center;
+  margin: 0 0 2rem;
+  padding: 1.35rem;
+  background: linear-gradient(135deg, #e2eef0, #fff4d8);
+  border: 2px solid #abc5cb;
+  border-left: .55rem solid var(--amber);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.module-presentation h2 { margin-bottom: .55rem; font-size: clamp(1.65rem, 3vw, 2.2rem); }
+.module-presentation p { max-width: 66ch; }
+.module-presentation > div > :last-child { margin-bottom: 0; }
+.presentation-download { text-align: center; white-space: nowrap; }
+
 .section-nav {
   position: sticky;
   top: 0;
@@ -787,6 +806,9 @@ input[type="file"] { padding: .75rem; }
   .actions .button,
   .module-pager .button { width: 100%; }
 
+  .module-presentation { grid-template-columns: 1fr; }
+  .presentation-download { width: 100%; white-space: normal; }
+
   .slot-card dl { grid-template-columns: 1fr; }
 
   .slot-card dd { margin-bottom: .45rem; }
@@ -818,6 +840,7 @@ input[type="file"] { padding: .75rem; }
   .course-family-nav,
   .footer,
   .actions,
+  .presentation-download,
   .module-pager,
   .section-nav,
   .check-actions,
