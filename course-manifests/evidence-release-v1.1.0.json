@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0.0",
+  "release_id": "year8-catapult-evidence-v1.1.0",
+  "course_id": "year8-catapult",
+  "course_title": "Year 8 Catapult",
+  "created_at": "2026-08-24T19:20:47.196Z",
+  "base_commit": "dc50d0449df141d209881d8599118256d9f997a5",
+  "candidate_digest_algorithm": "sha256(path NUL sha256 NUL bytes LF), sorted by path; manifest excluded",
+  "candidate_digest": "02be9e45b1cc4a0b9f5a84cbb5f420db3dba45ea6359498cae70f8af9c45e8f2",
+  "publication_authority": "Steve explicitly requested publication after this evidence update.",
+  "release_boundary": "Expanded section-level formative evidence and its layout, local persistence, reset safeguard, export/print controls, documentation and cache keys. Existing theory, visuals, presentations, routes, assessment, folio and teacher resources are preserved.",
+  "counts": {
+    "modules": 10,
+    "theory_sections": 30,
+    "multiple_choice_questions": 120,
+    "section_written_responses": 30,
+    "module_capstones": 10
+  },
+  "compatibility": {
+    "storage_prefix": "tas:catapult:year8:v1:",
+    "preserved_question_ids": 60,
+    "added_question_ids": 60,
+    "added_section_response_keys": 30,
+    "answer_position_distribution_for_added_questions": [
+      15,
+      15,
+      15,
+      15
+    ]
+  },
+  "required_acceptance": [
+    "Stage 15 content audit on this candidate digest",
+    "Stage 16 visual audit at desktop and exactly 390 CSS pixels",
+    "Stage 17 acceptance including save/reload, feedback, evidence export and route checks",
+    "Stage 18 scoped commit, push, deployment and live verification"
+  ],
+  "payload_files": [
+    {
+      "path": "index.html",
+      "bytes": 8935,
+      "sha256": "244e3d10173725ff0fa3b1d950bb8af0dde8be2b266bd3dd07dcf1df51a14178"
+    },
+    {
+      "path": "learning.js",
+      "bytes": 11055,
+      "sha256": "30a5f0d8ca6cea85c98503fe9c1b354703dce3598f7f5e9866f9c31c9b2103b8"
+    },
+    {
+      "path": "modules/module-01.html",
+      "bytes": 51382,
+      "sha256": "de12e8e7351e130fac087c13b5e3b32cdf96b97085ff58a72869db7ad20d910f"
+    },
+    {
+      "path": "modules/module-02.html",
+      "bytes": 51597,
+      "sha256": "3fc5c4aca114573e8e4b4b69fa42a9251f0df573075edd66793b25ad5fe39543"
+    },
+    {
+      "path": "modules/module-03.html",
+      "bytes": 52482,
+      "sha256": "26fbf487df382397f6c23cf0ce4e63465c0341f77e56fa0b6063cc26a5aff1f4"
+    },
+    {
+      "path": "modules/module-04.html",
+      "bytes": 49925,
+      "sha256": "4a63eaab865068d89f13fc6e82a8a211f91f38aa89a6f9bdd151be3ff8da4fd2"
+    },
+    {
+      "path": "modules/module-05.html",
+      "bytes": 50505,
+      "sha256": "cf682a233b64b3aba5e5f3c000799844d8349efed559c4fd044d8bfe43155d8e"
+    },
+    {
+      "path": "modules/module-06.html",
+      "bytes": 50498,
+      "sha256": "90b4e8869f105a819cd9593c644499cf09aa0bc6d1bad2965f9fcb576dfcd114"
+    },
+    {
+      "path": "modules/module-07.html",
+      "bytes": 50314,
+      "sha256": "40e1a55011dec227c746c70f59959d255fa4d46592f6cfd27ac3a47a3a9acb5c"
+    },
+    {
+      "path": "modules/module-08.html",
+      "bytes": 49206,
+      "sha256": "9dcca701235ff7d0e653bee038f9103f309baf91636360dd560c29566f7f78f1"
+    },
+    {
+      "path": "modules/module-09.html",
+      "bytes": 50709,
+      "sha256": "dabbbc49fe2ef08edc22638652db95ac730d90657d7fb539568cd9950d54c8ab"
+    },
+    {
+      "path": "modules/module-10.html",
+      "bytes": 53532,
+      "sha256": "39c2783e92481ac2a9a1cd8d5c3da9861336cb74329e9a0cc9c6a2708313c8b9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1231,
+      "sha256": "62bfa297630ecc6aec064f78aae663092d7221253f5376b0f2b5c296c522ea83"
+    },
+    {
+      "path": "specialist-content/knowledge-checks/learning-evidence-v2.0.json",
+      "bytes": 310977,
+      "sha256": "d1723ba839c697a1f480e18d6232774cd6e89c6680ad6d7598c763c30350aa97"
+    },
+    {
+      "path": "specialist-content/knowledge-checks/README.md",
+      "bytes": 822,
+      "sha256": "33062030027a4d36e14946e40ca9ffcda32709e6fd440c2c199733d0c1fbdd9a"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 28172,
+      "sha256": "cf3af56e2ea6d7bf6b839f6d809e0e53258cc072e2f937bcf17c420bf04ed772"
+    }
+  ]
+}
