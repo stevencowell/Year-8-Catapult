@@ -1,0 +1,2301 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "catapult-teacher-program-site-map",
+  "version": "1.0.0",
+  "build_id": "catapult-program-20260824-v1.0.0",
+  "generated": "2026-08-24T14:29:14+10:00",
+  "course": "Year 8 Technology Mandatory - Catapult - Engineering technologies and systems",
+  "integration_baseline": {
+    "artifact_id": "catapult-integrated-local-baseline-v1.0-stage14-input",
+    "sha256": "101a10ec64e39822709fb34beefb3306bb0f5e6eeef93153a89f7c2c73f9e224",
+    "file_count": 85
+  },
+  "destinations": [
+    {
+      "site_id": "site-home",
+      "route": "index.html",
+      "audience": "student",
+      "purpose": "course map"
+    },
+    {
+      "site_id": "site-activity-bank",
+      "route": "activities.html",
+      "audience": "student",
+      "purpose": "12 optional applied-learning activities"
+    },
+    {
+      "site_id": "site-folio",
+      "route": "folio.html",
+      "audience": "student",
+      "purpose": "eight-stage autosaving folio"
+    },
+    {
+      "site_id": "site-assessment",
+      "route": "assessment.html",
+      "audience": "student",
+      "purpose": "evidence guide, not formal notification"
+    },
+    {
+      "site_id": "site-teacher-resources",
+      "route": "teacher-resources.html",
+      "audience": "teacher",
+      "purpose": "authority and delivery controls"
+    },
+    {
+      "site_id": "site-m01",
+      "route": "modules/module-01.html",
+      "audience": "student",
+      "purpose": "The Catapult Engineering Challenge",
+      "module_id": "m01"
+    },
+    {
+      "site_id": "site-m01-activity",
+      "route": "modules/module-01.html",
+      "anchor": "#apply",
+      "audience": "student",
+      "purpose": "System map stress test",
+      "module_id": "m01"
+    },
+    {
+      "site_id": "site-m01-capstone",
+      "route": "modules/module-01.html",
+      "anchor": "#evidence",
+      "audience": "student",
+      "purpose": "Turn the brief into a system plan",
+      "module_id": "m01"
+    },
+    {
+      "site_id": "site-m01-video",
+      "route": "modules/module-01.html",
+      "anchor": "#video",
+      "audience": "student",
+      "purpose": "Engineering Design Process",
+      "module_id": "m01"
+    },
+    {
+      "site_id": "site-m01-presentation",
+      "route": "resources/presentations/module-01-catapult-challenge.pptx",
+      "audience": "teacher",
+      "purpose": "Module 1 classroom presentation",
+      "module_id": "m01"
+    },
+    {
+      "site_id": "site-m01-s1-theory",
+      "route": "modules/module-01.html",
+      "anchor": "#m01-system-parts",
+      "audience": "student",
+      "purpose": "A system is more than a set of parts",
+      "module_id": "m01",
+      "section_id": "m01-s1"
+    },
+    {
+      "site_id": "site-m01-s1-check",
+      "route": "modules/module-01.html",
+      "anchor": "#check-m01-s1",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m01",
+      "section_id": "m01-s1",
+      "question_count": 2,
+      "question_ids": [
+        "m01-s1-q1",
+        "m01-s1-q2"
+      ]
+    },
+    {
+      "site_id": "site-m01-s2-theory",
+      "route": "modules/module-01.html",
+      "anchor": "#m01-ipof",
+      "audience": "student",
+      "purpose": "Inputs, processes, outputs and feedback",
+      "module_id": "m01",
+      "section_id": "m01-s2"
+    },
+    {
+      "site_id": "site-m01-s2-check",
+      "route": "modules/module-01.html",
+      "anchor": "#check-m01-s2",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m01",
+      "section_id": "m01-s2",
+      "question_count": 2,
+      "question_ids": [
+        "m01-s2-q1",
+        "m01-s2-q2"
+      ]
+    },
+    {
+      "site_id": "site-m01-s3-theory",
+      "route": "modules/module-01.html",
+      "anchor": "#m01-brief",
+      "audience": "student",
+      "purpose": "Reading the brief as an engineer",
+      "module_id": "m01",
+      "section_id": "m01-s3"
+    },
+    {
+      "site_id": "site-m01-s3-check",
+      "route": "modules/module-01.html",
+      "anchor": "#check-m01-s3",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m01",
+      "section_id": "m01-s3",
+      "question_count": 2,
+      "question_ids": [
+        "m01-s3-q1",
+        "m01-s3-q2"
+      ]
+    },
+    {
+      "site_id": "site-m02",
+      "route": "modules/module-02.html",
+      "audience": "student",
+      "purpose": "Workshop Readiness, Tools and Materials",
+      "module_id": "m02"
+    },
+    {
+      "site_id": "site-m02-activity",
+      "route": "modules/module-02.html",
+      "anchor": "#apply",
+      "audience": "student",
+      "purpose": "Tool-and-material decision grid",
+      "module_id": "m02"
+    },
+    {
+      "site_id": "site-m02-capstone",
+      "route": "modules/module-02.html",
+      "anchor": "#evidence",
+      "audience": "student",
+      "purpose": "Make a source-safe workshop decision",
+      "module_id": "m02"
+    },
+    {
+      "site_id": "site-m02-video",
+      "route": "modules/module-02.html",
+      "anchor": "#video",
+      "audience": "student",
+      "purpose": "GENERAL WORKSHOP SAFETY - VICTORIAN WOODWORKERS ASSOCIATION SCHOOL OF WOODCRAFT",
+      "module_id": "m02"
+    },
+    {
+      "site_id": "site-m02-presentation",
+      "route": "resources/presentations/module-02-workshop-readiness.pptx",
+      "audience": "teacher",
+      "purpose": "Module 2 classroom presentation",
+      "module_id": "m02"
+    },
+    {
+      "site_id": "site-m02-s1-theory",
+      "route": "modules/module-02.html",
+      "anchor": "#m02-safety-system",
+      "audience": "student",
+      "purpose": "Safety is a planned system",
+      "module_id": "m02",
+      "section_id": "m02-s1"
+    },
+    {
+      "site_id": "site-m02-s1-check",
+      "route": "modules/module-02.html",
+      "anchor": "#check-m02-s1",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m02",
+      "section_id": "m02-s1",
+      "question_count": 2,
+      "question_ids": [
+        "m02-s1-q1",
+        "m02-s1-q2"
+      ]
+    },
+    {
+      "site_id": "site-m02-s2-theory",
+      "route": "modules/module-02.html",
+      "anchor": "#m02-tool-functions",
+      "audience": "student",
+      "purpose": "Select tools by function",
+      "module_id": "m02",
+      "section_id": "m02-s2"
+    },
+    {
+      "site_id": "site-m02-s2-check",
+      "route": "modules/module-02.html",
+      "anchor": "#check-m02-s2",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m02",
+      "section_id": "m02-s2",
+      "question_count": 2,
+      "question_ids": [
+        "m02-s2-q1",
+        "m02-s2-q2"
+      ]
+    },
+    {
+      "site_id": "site-m02-s3-theory",
+      "route": "modules/module-02.html",
+      "anchor": "#m02-material-behaviour",
+      "audience": "student",
+      "purpose": "Pine, grain and elastic behaviour",
+      "module_id": "m02",
+      "section_id": "m02-s3"
+    },
+    {
+      "site_id": "site-m02-s3-check",
+      "route": "modules/module-02.html",
+      "anchor": "#check-m02-s3",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m02",
+      "section_id": "m02-s3",
+      "question_count": 2,
+      "question_ids": [
+        "m02-s3-q1",
+        "m02-s3-q2"
+      ]
+    },
+    {
+      "site_id": "site-m03",
+      "route": "modules/module-03.html",
+      "audience": "student",
+      "purpose": "Siege Engines, Levers and the Woomera",
+      "module_id": "m03"
+    },
+    {
+      "site_id": "site-m03-activity",
+      "route": "modules/module-03.html",
+      "anchor": "#apply",
+      "audience": "student",
+      "purpose": "Energy-store and lever comparison matrix",
+      "module_id": "m03"
+    },
+    {
+      "site_id": "site-m03-capstone",
+      "route": "modules/module-03.html",
+      "anchor": "#evidence",
+      "audience": "student",
+      "purpose": "Compare systems without flattening their context",
+      "module_id": "m03"
+    },
+    {
+      "site_id": "site-m03-video",
+      "route": "modules/module-03.html",
+      "anchor": "#video",
+      "audience": "student",
+      "purpose": "Woomeras with Jared Thomas",
+      "module_id": "m03"
+    },
+    {
+      "site_id": "site-m03-presentation",
+      "route": "resources/presentations/module-03-levers-and-woomera.pptx",
+      "audience": "teacher",
+      "purpose": "Module 3 classroom presentation",
+      "module_id": "m03"
+    },
+    {
+      "site_id": "site-m03-s1-theory",
+      "route": "modules/module-03.html",
+      "anchor": "#m03-energy-stores",
+      "audience": "student",
+      "purpose": "Different systems, different energy stores",
+      "module_id": "m03",
+      "section_id": "m03-s1"
+    },
+    {
+      "site_id": "site-m03-s1-check",
+      "route": "modules/module-03.html",
+      "anchor": "#check-m03-s1",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m03",
+      "section_id": "m03-s1",
+      "question_count": 2,
+      "question_ids": [
+        "m03-s1-q1",
+        "m03-s1-q2"
+      ]
+    },
+    {
+      "site_id": "site-m03-s2-theory",
+      "route": "modules/module-03.html",
+      "anchor": "#m03-lever-moments",
+      "audience": "student",
+      "purpose": "Lever moments and trade-offs",
+      "module_id": "m03",
+      "section_id": "m03-s2"
+    },
+    {
+      "site_id": "site-m03-s2-check",
+      "route": "modules/module-03.html",
+      "anchor": "#check-m03-s2",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m03",
+      "section_id": "m03-s2",
+      "question_count": 2,
+      "question_ids": [
+        "m03-s2-q1",
+        "m03-s2-q2"
+      ]
+    },
+    {
+      "site_id": "site-m03-s3-theory",
+      "route": "modules/module-03.html",
+      "anchor": "#m03-woomera-context",
+      "audience": "student",
+      "purpose": "A woomera in its own cultural and technological context",
+      "module_id": "m03",
+      "section_id": "m03-s3"
+    },
+    {
+      "site_id": "site-m03-s3-check",
+      "route": "modules/module-03.html",
+      "anchor": "#check-m03-s3",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m03",
+      "section_id": "m03-s3",
+      "question_count": 2,
+      "question_ids": [
+        "m03-s3-q1",
+        "m03-s3-q2"
+      ]
+    },
+    {
+      "site_id": "site-m04",
+      "route": "modules/module-04.html",
+      "audience": "student",
+      "purpose": "Force, Motion, Energy and Prototypes",
+      "module_id": "m04"
+    },
+    {
+      "site_id": "site-m04-activity",
+      "route": "modules/module-04.html",
+      "anchor": "#apply",
+      "audience": "student",
+      "purpose": "Prototype evidence planner",
+      "module_id": "m04"
+    },
+    {
+      "site_id": "site-m04-capstone",
+      "route": "modules/module-04.html",
+      "anchor": "#evidence",
+      "audience": "student",
+      "purpose": "Explain a fair prototype finding",
+      "module_id": "m04"
+    },
+    {
+      "site_id": "site-m04-video",
+      "route": "modules/module-04.html",
+      "anchor": "#video",
+      "audience": "student",
+      "purpose": "Elastic Potential Energy",
+      "module_id": "m04"
+    },
+    {
+      "site_id": "site-m04-presentation",
+      "route": "resources/presentations/module-04-force-motion-energy.pptx",
+      "audience": "teacher",
+      "purpose": "Module 4 classroom presentation",
+      "module_id": "m04"
+    },
+    {
+      "site_id": "site-m04-s1-theory",
+      "route": "modules/module-04.html",
+      "anchor": "#m04-energy-chain",
+      "audience": "student",
+      "purpose": "Following the energy chain",
+      "module_id": "m04",
+      "section_id": "m04-s1"
+    },
+    {
+      "site_id": "site-m04-s1-check",
+      "route": "modules/module-04.html",
+      "anchor": "#check-m04-s1",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m04",
+      "section_id": "m04-s1",
+      "question_count": 2,
+      "question_ids": [
+        "m04-s1-q1",
+        "m04-s1-q2"
+      ]
+    },
+    {
+      "site_id": "site-m04-s2-theory",
+      "route": "modules/module-04.html",
+      "anchor": "#m04-newton-laws",
+      "audience": "student",
+      "purpose": "Newton's three laws in one system",
+      "module_id": "m04",
+      "section_id": "m04-s2"
+    },
+    {
+      "site_id": "site-m04-s2-check",
+      "route": "modules/module-04.html",
+      "anchor": "#check-m04-s2",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m04",
+      "section_id": "m04-s2",
+      "question_count": 2,
+      "question_ids": [
+        "m04-s2-q1",
+        "m04-s2-q2"
+      ]
+    },
+    {
+      "site_id": "site-m04-s3-theory",
+      "route": "modules/module-04.html",
+      "anchor": "#m04-prototype-evidence",
+      "audience": "student",
+      "purpose": "Prototypes and fair evidence",
+      "module_id": "m04",
+      "section_id": "m04-s3"
+    },
+    {
+      "site_id": "site-m04-s3-check",
+      "route": "modules/module-04.html",
+      "anchor": "#check-m04-s3",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m04",
+      "section_id": "m04-s3",
+      "question_count": 2,
+      "question_ids": [
+        "m04-s3-q1",
+        "m04-s3-q2"
+      ]
+    },
+    {
+      "site_id": "site-m05",
+      "route": "modules/module-05.html",
+      "audience": "student",
+      "purpose": "Communicating a Buildable Design",
+      "module_id": "m05"
+    },
+    {
+      "site_id": "site-m05-activity",
+      "route": "modules/module-05.html",
+      "anchor": "#apply",
+      "audience": "student",
+      "purpose": "Design-package consistency audit",
+      "module_id": "m05"
+    },
+    {
+      "site_id": "site-m05-capstone",
+      "route": "modules/module-05.html",
+      "anchor": "#evidence",
+      "audience": "student",
+      "purpose": "Audit a design communication package",
+      "module_id": "m05"
+    },
+    {
+      "site_id": "site-m05-video",
+      "route": "modules/module-05.html",
+      "anchor": "#video",
+      "audience": "student",
+      "purpose": "Orthographic Drawing - Simplified",
+      "module_id": "m05"
+    },
+    {
+      "site_id": "site-m05-presentation",
+      "route": "resources/presentations/module-05-buildable-design.pptx",
+      "audience": "teacher",
+      "purpose": "Module 5 classroom presentation",
+      "module_id": "m05"
+    },
+    {
+      "site_id": "site-m05-s1-theory",
+      "route": "modules/module-05.html",
+      "anchor": "#m05-idea-selection",
+      "audience": "student",
+      "purpose": "Develop, compare and select ideas",
+      "module_id": "m05",
+      "section_id": "m05-s1"
+    },
+    {
+      "site_id": "site-m05-s1-check",
+      "route": "modules/module-05.html",
+      "anchor": "#check-m05-s1",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m05",
+      "section_id": "m05-s1",
+      "question_count": 2,
+      "question_ids": [
+        "m05-s1-q1",
+        "m05-s1-q2"
+      ]
+    },
+    {
+      "site_id": "site-m05-s2-theory",
+      "route": "modules/module-05.html",
+      "anchor": "#m05-technical-drawings",
+      "audience": "student",
+      "purpose": "Drawings that agree with each other",
+      "module_id": "m05",
+      "section_id": "m05-s2"
+    },
+    {
+      "site_id": "site-m05-s2-check",
+      "route": "modules/module-05.html",
+      "anchor": "#check-m05-s2",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m05",
+      "section_id": "m05-s2",
+      "question_count": 2,
+      "question_ids": [
+        "m05-s2-q1",
+        "m05-s2-q2"
+      ]
+    },
+    {
+      "site_id": "site-m05-s3-theory",
+      "route": "modules/module-05.html",
+      "anchor": "#m05-cutting-lists",
+      "audience": "student",
+      "purpose": "Cutting lists and material limits",
+      "module_id": "m05",
+      "section_id": "m05-s3"
+    },
+    {
+      "site_id": "site-m05-s3-check",
+      "route": "modules/module-05.html",
+      "anchor": "#check-m05-s3",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m05",
+      "section_id": "m05-s3",
+      "question_count": 2,
+      "question_ids": [
+        "m05-s3-q1",
+        "m05-s3-q2"
+      ]
+    },
+    {
+      "site_id": "site-m06",
+      "route": "modules/module-06.html",
+      "audience": "student",
+      "purpose": "Producing the Base and Frame",
+      "module_id": "m06"
+    },
+    {
+      "site_id": "site-m06-activity",
+      "route": "modules/module-06.html",
+      "anchor": "#apply",
+      "audience": "student",
+      "purpose": "Load-path and checkpoint detective",
+      "module_id": "m06"
+    },
+    {
+      "site_id": "site-m06-capstone",
+      "route": "modules/module-06.html",
+      "anchor": "#evidence",
+      "audience": "student",
+      "purpose": "Plan a meaningful frame checkpoint",
+      "module_id": "m06"
+    },
+    {
+      "site_id": "site-m06-video",
+      "route": "modules/module-06.html",
+      "anchor": "#video",
+      "audience": "student",
+      "purpose": "The Work Around: How to Mark Wood Accurately Before Cutting | HGTV",
+      "module_id": "m06"
+    },
+    {
+      "site_id": "site-m06-presentation",
+      "route": "resources/presentations/module-06-base-and-frame.pptx",
+      "audience": "teacher",
+      "purpose": "Module 6 classroom presentation",
+      "module_id": "m06"
+    },
+    {
+      "site_id": "site-m06-s1-theory",
+      "route": "modules/module-06.html",
+      "anchor": "#m06-sequence-dependencies",
+      "audience": "student",
+      "purpose": "Sequence work around dependencies",
+      "module_id": "m06",
+      "section_id": "m06-s1"
+    },
+    {
+      "site_id": "site-m06-s1-check",
+      "route": "modules/module-06.html",
+      "anchor": "#check-m06-s1",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m06",
+      "section_id": "m06-s1",
+      "question_count": 2,
+      "question_ids": [
+        "m06-s1-q1",
+        "m06-s1-q2"
+      ]
+    },
+    {
+      "site_id": "site-m06-s2-theory",
+      "route": "modules/module-06.html",
+      "anchor": "#m06-load-paths",
+      "audience": "student",
+      "purpose": "Structures carry forces through load paths",
+      "module_id": "m06",
+      "section_id": "m06-s2"
+    },
+    {
+      "site_id": "site-m06-s2-check",
+      "route": "modules/module-06.html",
+      "anchor": "#check-m06-s2",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m06",
+      "section_id": "m06-s2",
+      "question_count": 2,
+      "question_ids": [
+        "m06-s2-q1",
+        "m06-s2-q2"
+      ]
+    },
+    {
+      "site_id": "site-m06-s3-theory",
+      "route": "modules/module-06.html",
+      "anchor": "#m06-quality-evidence",
+      "audience": "student",
+      "purpose": "Check quality and record real evidence",
+      "module_id": "m06",
+      "section_id": "m06-s3"
+    },
+    {
+      "site_id": "site-m06-s3-check",
+      "route": "modules/module-06.html",
+      "anchor": "#check-m06-s3",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m06",
+      "section_id": "m06-s3",
+      "question_count": 2,
+      "question_ids": [
+        "m06-s3-q1",
+        "m06-s3-q2"
+      ]
+    },
+    {
+      "site_id": "site-m07",
+      "route": "modules/module-07.html",
+      "audience": "student",
+      "purpose": "Components, Assembly and Quality",
+      "module_id": "m07"
+    },
+    {
+      "site_id": "site-m07-activity",
+      "route": "modules/module-07.html",
+      "anchor": "#apply",
+      "audience": "student",
+      "purpose": "Component-chain fault finder",
+      "module_id": "m07"
+    },
+    {
+      "site_id": "site-m07-capstone",
+      "route": "modules/module-07.html",
+      "anchor": "#evidence",
+      "audience": "student",
+      "purpose": "Trace and respond to a quality fault",
+      "module_id": "m07"
+    },
+    {
+      "site_id": "site-m07-video",
+      "route": "modules/module-07.html",
+      "anchor": "#video",
+      "audience": "student",
+      "purpose": "A day in the life of a quality assurance technician",
+      "module_id": "m07"
+    },
+    {
+      "site_id": "site-m07-presentation",
+      "route": "resources/presentations/module-07-assembly-quality.pptx",
+      "audience": "teacher",
+      "purpose": "Module 7 classroom presentation",
+      "module_id": "m07"
+    },
+    {
+      "site_id": "site-m07-s1-theory",
+      "route": "modules/module-07.html",
+      "anchor": "#m07-component-chain",
+      "audience": "student",
+      "purpose": "Components form an interaction chain",
+      "module_id": "m07",
+      "section_id": "m07-s1"
+    },
+    {
+      "site_id": "site-m07-s1-check",
+      "route": "modules/module-07.html",
+      "anchor": "#check-m07-s1",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m07",
+      "section_id": "m07-s1",
+      "question_count": 2,
+      "question_ids": [
+        "m07-s1-q1",
+        "m07-s1-q2"
+      ]
+    },
+    {
+      "site_id": "site-m07-s2-theory",
+      "route": "modules/module-07.html",
+      "anchor": "#m07-alignment-fit",
+      "audience": "student",
+      "purpose": "Quality depends on alignment and fit",
+      "module_id": "m07",
+      "section_id": "m07-s2"
+    },
+    {
+      "site_id": "site-m07-s2-check",
+      "route": "modules/module-07.html",
+      "anchor": "#check-m07-s2",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m07",
+      "section_id": "m07-s2",
+      "question_count": 2,
+      "question_ids": [
+        "m07-s2-q1",
+        "m07-s2-q2"
+      ]
+    },
+    {
+      "site_id": "site-m07-s3-theory",
+      "route": "modules/module-07.html",
+      "anchor": "#m07-adjustment-loop",
+      "audience": "student",
+      "purpose": "Stop, check, adjust and record",
+      "module_id": "m07",
+      "section_id": "m07-s3"
+    },
+    {
+      "site_id": "site-m07-s3-check",
+      "route": "modules/module-07.html",
+      "anchor": "#check-m07-s3",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m07",
+      "section_id": "m07-s3",
+      "question_count": 2,
+      "question_ids": [
+        "m07-s3-q1",
+        "m07-s3-q2"
+      ]
+    },
+    {
+      "site_id": "site-m08",
+      "route": "modules/module-08.html",
+      "audience": "student",
+      "purpose": "Testing, Data and Redesign",
+      "module_id": "m08"
+    },
+    {
+      "site_id": "site-m08-activity",
+      "route": "modules/module-08.html",
+      "anchor": "#apply",
+      "audience": "student",
+      "purpose": "Data detective: pattern, anomaly, decision",
+      "module_id": "m08"
+    },
+    {
+      "site_id": "site-m08-capstone",
+      "route": "modules/module-08.html",
+      "anchor": "#evidence",
+      "audience": "student",
+      "purpose": "Make a redesign decision from repeated evidence",
+      "module_id": "m08"
+    },
+    {
+      "site_id": "site-m08-video",
+      "route": "modules/module-08.html",
+      "anchor": "#video",
+      "audience": "student",
+      "purpose": "The Engineering Process: Crash Course Kids #12.2",
+      "module_id": "m08"
+    },
+    {
+      "site_id": "site-m08-presentation",
+      "route": "resources/presentations/module-08-testing-redesign.pptx",
+      "audience": "teacher",
+      "purpose": "Module 8 classroom presentation",
+      "module_id": "m08"
+    },
+    {
+      "site_id": "site-m08-s1-theory",
+      "route": "modules/module-08.html",
+      "anchor": "#m08-test-question",
+      "audience": "student",
+      "purpose": "Begin with a testable question",
+      "module_id": "m08",
+      "section_id": "m08-s1"
+    },
+    {
+      "site_id": "site-m08-s1-check",
+      "route": "modules/module-08.html",
+      "anchor": "#check-m08-s1",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m08",
+      "section_id": "m08-s1",
+      "question_count": 2,
+      "question_ids": [
+        "m08-s1-q1",
+        "m08-s1-q2"
+      ]
+    },
+    {
+      "site_id": "site-m08-s2-theory",
+      "route": "modules/module-08.html",
+      "anchor": "#m08-data-patterns",
+      "audience": "student",
+      "purpose": "Use repeated data, mean and range",
+      "module_id": "m08",
+      "section_id": "m08-s2"
+    },
+    {
+      "site_id": "site-m08-s2-check",
+      "route": "modules/module-08.html",
+      "anchor": "#check-m08-s2",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m08",
+      "section_id": "m08-s2",
+      "question_count": 2,
+      "question_ids": [
+        "m08-s2-q1",
+        "m08-s2-q2"
+      ]
+    },
+    {
+      "site_id": "site-m08-s3-theory",
+      "route": "modules/module-08.html",
+      "anchor": "#m08-cer-redesign",
+      "audience": "student",
+      "purpose": "Reason from evidence and redesign carefully",
+      "module_id": "m08",
+      "section_id": "m08-s3"
+    },
+    {
+      "site_id": "site-m08-s3-check",
+      "route": "modules/module-08.html",
+      "anchor": "#check-m08-s3",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m08",
+      "section_id": "m08-s3",
+      "question_count": 2,
+      "question_ids": [
+        "m08-s3-q1",
+        "m08-s3-q2"
+      ]
+    },
+    {
+      "site_id": "site-m09",
+      "route": "modules/module-09.html",
+      "audience": "student",
+      "purpose": "Engineering Report and Sustainability",
+      "module_id": "m09"
+    },
+    {
+      "site_id": "site-m09-activity",
+      "route": "modules/module-09.html",
+      "anchor": "#apply",
+      "audience": "student",
+      "purpose": "Report paragraph builder",
+      "module_id": "m09"
+    },
+    {
+      "site_id": "site-m09-capstone",
+      "route": "modules/module-09.html",
+      "anchor": "#evidence",
+      "audience": "student",
+      "purpose": "Write an evidence-led engineering judgement",
+      "module_id": "m09"
+    },
+    {
+      "site_id": "site-m09-video",
+      "route": "modules/module-09.html",
+      "anchor": "#video",
+      "audience": "student",
+      "purpose": "Pine Forestry Story: Seed to Shelter (2 Minutes) - ForestVR™",
+      "module_id": "m09"
+    },
+    {
+      "site_id": "site-m09-presentation",
+      "route": "resources/presentations/module-09-report-sustainability.pptx",
+      "audience": "teacher",
+      "purpose": "Module 9 classroom presentation",
+      "module_id": "m09"
+    },
+    {
+      "site_id": "site-m09-s1-theory",
+      "route": "modules/module-09.html",
+      "anchor": "#m09-report-journey",
+      "audience": "student",
+      "purpose": "Build a report around the design journey",
+      "module_id": "m09",
+      "section_id": "m09-s1"
+    },
+    {
+      "site_id": "site-m09-s1-check",
+      "route": "modules/module-09.html",
+      "anchor": "#check-m09-s1",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m09",
+      "section_id": "m09-s1",
+      "question_count": 2,
+      "question_ids": [
+        "m09-s1-q1",
+        "m09-s1-q2"
+      ]
+    },
+    {
+      "site_id": "site-m09-s2-theory",
+      "route": "modules/module-09.html",
+      "anchor": "#m09-cer",
+      "audience": "student",
+      "purpose": "Use claim, evidence and reasoning",
+      "module_id": "m09",
+      "section_id": "m09-s2"
+    },
+    {
+      "site_id": "site-m09-s2-check",
+      "route": "modules/module-09.html",
+      "anchor": "#check-m09-s2",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m09",
+      "section_id": "m09-s2",
+      "question_count": 2,
+      "question_ids": [
+        "m09-s2-q1",
+        "m09-s2-q2"
+      ]
+    },
+    {
+      "site_id": "site-m09-s3-theory",
+      "route": "modules/module-09.html",
+      "anchor": "#m09-sustainability",
+      "audience": "student",
+      "purpose": "Think across environmental, social and economic needs",
+      "module_id": "m09",
+      "section_id": "m09-s3"
+    },
+    {
+      "site_id": "site-m09-s3-check",
+      "route": "modules/module-09.html",
+      "anchor": "#check-m09-s3",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m09",
+      "section_id": "m09-s3",
+      "question_count": 2,
+      "question_ids": [
+        "m09-s3-q1",
+        "m09-s3-q2"
+      ]
+    },
+    {
+      "site_id": "site-m10",
+      "route": "modules/module-10.html",
+      "audience": "student",
+      "purpose": "Demonstration, Evaluation and Connected Systems",
+      "module_id": "m10"
+    },
+    {
+      "site_id": "site-m10-activity",
+      "route": "modules/module-10.html",
+      "anchor": "#apply",
+      "audience": "student",
+      "purpose": "Evidence-led demonstration and evaluation card",
+      "module_id": "m10"
+    },
+    {
+      "site_id": "site-m10-capstone",
+      "route": "modules/module-10.html",
+      "anchor": "#evidence",
+      "audience": "student",
+      "purpose": "Close the design loop with evidence and respect",
+      "module_id": "m10"
+    },
+    {
+      "site_id": "site-m10-video",
+      "route": "modules/module-10.html",
+      "anchor": "#video",
+      "audience": "student",
+      "purpose": "Australia’s newest World Heritage Property - BudjBim Cultural Landscape",
+      "module_id": "m10"
+    },
+    {
+      "site_id": "site-m10-presentation",
+      "route": "resources/presentations/module-10-connected-systems.pptx",
+      "audience": "teacher",
+      "purpose": "Module 10 classroom presentation",
+      "module_id": "m10"
+    },
+    {
+      "site_id": "site-m10-s1-theory",
+      "route": "modules/module-10.html",
+      "anchor": "#m10-demonstration-evidence",
+      "audience": "student",
+      "purpose": "Demonstrate function through evidence",
+      "module_id": "m10",
+      "section_id": "m10-s1"
+    },
+    {
+      "site_id": "site-m10-s1-check",
+      "route": "modules/module-10.html",
+      "anchor": "#check-m10-s1",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m10",
+      "section_id": "m10-s1",
+      "question_count": 2,
+      "question_ids": [
+        "m10-s1-q1",
+        "m10-s1-q2"
+      ]
+    },
+    {
+      "site_id": "site-m10-s2-theory",
+      "route": "modules/module-10.html",
+      "anchor": "#m10-evaluation",
+      "audience": "student",
+      "purpose": "Evaluate product, process and learning",
+      "module_id": "m10",
+      "section_id": "m10-s2"
+    },
+    {
+      "site_id": "site-m10-s2-check",
+      "route": "modules/module-10.html",
+      "anchor": "#check-m10-s2",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m10",
+      "section_id": "m10-s2",
+      "question_count": 2,
+      "question_ids": [
+        "m10-s2-q1",
+        "m10-s2-q2"
+      ]
+    },
+    {
+      "site_id": "site-m10-s3-theory",
+      "route": "modules/module-10.html",
+      "anchor": "#m10-connected-systems",
+      "audience": "student",
+      "purpose": "Connected Aboriginal engineering systems",
+      "module_id": "m10",
+      "section_id": "m10-s3"
+    },
+    {
+      "site_id": "site-m10-s3-check",
+      "route": "modules/module-10.html",
+      "anchor": "#check-m10-s3",
+      "audience": "student",
+      "purpose": "feedback-rich two-question check",
+      "module_id": "m10",
+      "section_id": "m10-s3",
+      "question_count": 2,
+      "question_ids": [
+        "m10-s3-q1",
+        "m10-s3-q2"
+      ]
+    },
+    {
+      "site_id": "site-folio-01",
+      "route": "folio.html",
+      "anchor": "#folio-01",
+      "audience": "student",
+      "purpose": "Brief and criteria"
+    },
+    {
+      "site_id": "site-folio-02",
+      "route": "folio.html",
+      "anchor": "#folio-02",
+      "audience": "student",
+      "purpose": "Research that informs the design"
+    },
+    {
+      "site_id": "site-folio-03",
+      "route": "folio.html",
+      "anchor": "#folio-03",
+      "audience": "student",
+      "purpose": "Different ideas"
+    },
+    {
+      "site_id": "site-folio-04",
+      "route": "folio.html",
+      "anchor": "#folio-04",
+      "audience": "student",
+      "purpose": "Chosen design"
+    },
+    {
+      "site_id": "site-folio-05",
+      "route": "folio.html",
+      "anchor": "#folio-05",
+      "audience": "student",
+      "purpose": "Production planning"
+    },
+    {
+      "site_id": "site-folio-06",
+      "route": "folio.html",
+      "anchor": "#folio-06",
+      "audience": "student",
+      "purpose": "Build checkpoints"
+    },
+    {
+      "site_id": "site-folio-07",
+      "route": "folio.html",
+      "anchor": "#folio-07",
+      "audience": "student",
+      "purpose": "Testing and redesign"
+    },
+    {
+      "site_id": "site-folio-08",
+      "route": "folio.html",
+      "anchor": "#folio-08",
+      "audience": "student",
+      "purpose": "Evaluation"
+    },
+    {
+      "site_id": "site-bank-01",
+      "route": "activities.html",
+      "audience": "student",
+      "purpose": "System chain sorter"
+    },
+    {
+      "site_id": "site-bank-02",
+      "route": "activities.html",
+      "audience": "student",
+      "purpose": "Criteria clinic"
+    },
+    {
+      "site_id": "site-bank-03",
+      "route": "activities.html",
+      "audience": "student",
+      "purpose": "Tool function and stop–ask triage"
+    },
+    {
+      "site_id": "site-bank-04",
+      "route": "activities.html",
+      "audience": "student",
+      "purpose": "Lever moment reasoning lab"
+    },
+    {
+      "site_id": "site-bank-05",
+      "route": "activities.html",
+      "audience": "student",
+      "purpose": "Energy and Newton misconception clinic"
+    },
+    {
+      "site_id": "site-bank-06",
+      "route": "activities.html",
+      "audience": "student",
+      "purpose": "Drawing and cutting-list audit"
+    },
+    {
+      "site_id": "site-bank-07",
+      "route": "activities.html",
+      "audience": "student",
+      "purpose": "Load-path labeller"
+    },
+    {
+      "site_id": "site-bank-08",
+      "route": "activities.html",
+      "audience": "student",
+      "purpose": "Quality fault evidence matrix"
+    },
+    {
+      "site_id": "site-bank-09",
+      "route": "activities.html",
+      "audience": "student",
+      "purpose": "Repeated-data detective"
+    },
+    {
+      "site_id": "site-bank-10",
+      "route": "activities.html",
+      "audience": "student",
+      "purpose": "CER paragraph repair shop"
+    },
+    {
+      "site_id": "site-bank-11",
+      "route": "activities.html",
+      "audience": "student",
+      "purpose": "Sustainability life-cycle sorter"
+    },
+    {
+      "site_id": "site-bank-12",
+      "route": "activities.html",
+      "audience": "student",
+      "purpose": "Authority, context and connected-systems inquiry"
+    },
+    {
+      "site_id": "site-visual-photo-hero",
+      "route": "assets/visuals/catapult-hero-concept.png",
+      "audience": "student",
+      "purpose": "Course orientation and engineered-system context"
+    },
+    {
+      "site_id": "site-visual-photo-materials",
+      "route": "assets/visuals/catapult-materials-workshop.png",
+      "audience": "student",
+      "purpose": "Material and tool-category comparison"
+    },
+    {
+      "site_id": "site-visual-photo-lever",
+      "route": "assets/visuals/lever-moment-still-life.png",
+      "audience": "student",
+      "purpose": "Effort arm, load arm, pivot and turning effect"
+    },
+    {
+      "site_id": "site-visual-photo-prototypes",
+      "route": "assets/visuals/prototype-redesign-sequence.png",
+      "audience": "student",
+      "purpose": "Prototype as a question and evidence-led redesign"
+    },
+    {
+      "site_id": "site-visual-photo-drawing",
+      "route": "assets/visuals/catapult-design-drawing-concept.png",
+      "audience": "student",
+      "purpose": "Design communication and buildable-drawing conventions"
+    },
+    {
+      "site_id": "site-visual-photo-pine",
+      "route": "assets/visuals/radiata-pine-grain-samples.png",
+      "audience": "student",
+      "purpose": "Material inspection before selecting a component role"
+    },
+    {
+      "site_id": "site-visual-photo-assembly",
+      "route": "assets/visuals/catapult-assembly-quality.png",
+      "audience": "student",
+      "purpose": "Quality checkpoints before later assembly"
+    },
+    {
+      "site_id": "site-visual-photo-testing",
+      "route": "assets/visuals/catapult-fair-testing-concept.png",
+      "audience": "student",
+      "purpose": "Fair testing, observation and repeat-trial evidence"
+    },
+    {
+      "site_id": "site-visual-photo-life-cycle",
+      "route": "assets/visuals/timber-life-cycle-still-life.png",
+      "audience": "student",
+      "purpose": "Life-cycle thinking, durability, repair and material recovery"
+    },
+    {
+      "site_id": "site-visual-photo-evaluation",
+      "route": "assets/visuals/evaluation-evidence-folio.png",
+      "audience": "student",
+      "purpose": "Criterion, evidence, judgement and improvement"
+    },
+    {
+      "site_id": "site-visual-photo-elastic",
+      "route": "assets/visuals/elastic-energy-still-life.png",
+      "audience": "student",
+      "purpose": "Elastic deformation and temporary energy storage"
+    },
+    {
+      "site_id": "site-visual-photo-ngunnhu",
+      "route": "assets/visuals/baiames-ngunnhu-brewarrina.jpg",
+      "audience": "student",
+      "purpose": "Source-bound visual context for Ngemba custodianship and a system working with river flow"
+    },
+    {
+      "site_id": "site-visual-m01-system-flow",
+      "route": "assets/visuals/diagrams/m01-system-flow.svg",
+      "audience": "student",
+      "purpose": "A catapult as an engineered system"
+    },
+    {
+      "site_id": "site-visual-m01-criteria-constraints",
+      "route": "assets/visuals/diagrams/m01-criteria-constraints.svg",
+      "audience": "student",
+      "purpose": "Criteria and constraints do different jobs"
+    },
+    {
+      "site_id": "site-visual-m01-evidence-loop",
+      "route": "assets/visuals/diagrams/m01-evidence-loop.svg",
+      "audience": "student",
+      "purpose": "The evidence-led design loop"
+    },
+    {
+      "site_id": "site-visual-m02-tool-families",
+      "route": "assets/visuals/diagrams/m02-tool-families.svg",
+      "audience": "student",
+      "purpose": "Choose a tool by its job"
+    },
+    {
+      "site_id": "site-visual-m02-pine-grain-knot",
+      "route": "assets/visuals/diagrams/m02-pine-grain-knot.svg",
+      "audience": "student",
+      "purpose": "Wood is not uniform"
+    },
+    {
+      "site_id": "site-visual-m02-elastic-deformation",
+      "route": "assets/visuals/diagrams/m02-elastic-deformation.svg",
+      "audience": "student",
+      "purpose": "Elastic or permanent change?"
+    },
+    {
+      "site_id": "site-visual-m03-energy-stores",
+      "route": "assets/visuals/diagrams/m03-energy-stores.svg",
+      "audience": "student",
+      "purpose": "Siege engines used different energy stores"
+    },
+    {
+      "site_id": "site-visual-m03-lever-anatomy",
+      "route": "assets/visuals/diagrams/m03-lever-anatomy.svg",
+      "audience": "student",
+      "purpose": "Read the parts of a lever"
+    },
+    {
+      "site_id": "site-visual-m03-woomera-principle",
+      "route": "assets/visuals/diagrams/m03-woomera-principle.svg",
+      "audience": "student",
+      "purpose": "A woomera extends the throwing lever"
+    },
+    {
+      "site_id": "site-visual-m04-energy-chain",
+      "route": "assets/visuals/diagrams/m04-energy-chain.svg",
+      "audience": "student",
+      "purpose": "Energy changes form through the system"
+    },
+    {
+      "site_id": "site-visual-m04-newton-laws",
+      "route": "assets/visuals/diagrams/m04-newton-laws.svg",
+      "audience": "student",
+      "purpose": "Newton's laws through a catapult lens"
+    },
+    {
+      "site_id": "site-visual-m04-fair-test",
+      "route": "assets/visuals/diagrams/m04-fair-test.svg",
+      "audience": "student",
+      "purpose": "A fair test isolates one design question"
+    },
+    {
+      "site_id": "site-visual-m05-drawing-views",
+      "route": "assets/visuals/diagrams/m05-drawing-views.svg",
+      "audience": "student",
+      "purpose": "Different views answer different questions"
+    },
+    {
+      "site_id": "site-visual-m05-dimension-communication",
+      "route": "assets/visuals/diagrams/m05-dimension-communication.svg",
+      "audience": "student",
+      "purpose": "A dimension communicates intent"
+    },
+    {
+      "site_id": "site-visual-m05-cutting-list-logic",
+      "route": "assets/visuals/diagrams/m05-cutting-list-logic.svg",
+      "audience": "student",
+      "purpose": "From drawing to cutting list"
+    },
+    {
+      "site_id": "site-visual-m06-squareness-check",
+      "route": "assets/visuals/diagrams/m06-squareness-check.svg",
+      "audience": "student",
+      "purpose": "Squareness is a relationship"
+    },
+    {
+      "site_id": "site-visual-m06-frame-load-path",
+      "route": "assets/visuals/diagrams/m06-frame-load-path.svg",
+      "audience": "student",
+      "purpose": "A frame carries forces through connected parts"
+    },
+    {
+      "site_id": "site-visual-m06-production-cycle",
+      "route": "assets/visuals/diagrams/m06-production-cycle.svg",
+      "audience": "student",
+      "purpose": "The controlled production cycle"
+    },
+    {
+      "site_id": "site-visual-m07-axle-alignment",
+      "route": "assets/visuals/diagrams/m07-axle-alignment.svg",
+      "audience": "student",
+      "purpose": "Paired supports must agree"
+    },
+    {
+      "site_id": "site-visual-m07-quality-checkpoints",
+      "route": "assets/visuals/diagrams/m07-quality-checkpoints.svg",
+      "audience": "student",
+      "purpose": "Quality is checked at useful moments"
+    },
+    {
+      "site_id": "site-visual-m07-joint-evidence",
+      "route": "assets/visuals/diagrams/m07-joint-evidence.svg",
+      "audience": "student",
+      "purpose": "Describe a joint with evidence"
+    },
+    {
+      "site_id": "site-visual-m08-variable-control",
+      "route": "assets/visuals/diagrams/m08-variable-control.svg",
+      "audience": "student",
+      "purpose": "Variables organise an investigation"
+    },
+    {
+      "site_id": "site-visual-m08-repeat-trials",
+      "route": "assets/visuals/diagrams/m08-repeat-trials.svg",
+      "audience": "student",
+      "purpose": "One trial is an event; repeats can reveal a pattern"
+    },
+    {
+      "site_id": "site-visual-m08-data-redesign",
+      "route": "assets/visuals/diagrams/m08-data-redesign.svg",
+      "audience": "student",
+      "purpose": "Turn results into a redesign decision"
+    },
+    {
+      "site_id": "site-visual-m09-report-structure",
+      "route": "assets/visuals/diagrams/m09-report-structure.svg",
+      "audience": "student",
+      "purpose": "An engineering report tells an evidence story"
+    },
+    {
+      "site_id": "site-visual-m09-life-cycle",
+      "route": "assets/visuals/diagrams/m09-life-cycle.svg",
+      "audience": "student",
+      "purpose": "Think beyond the making lesson"
+    },
+    {
+      "site_id": "site-visual-m09-quality-sustainability",
+      "route": "assets/visuals/diagrams/m09-quality-sustainability.svg",
+      "audience": "student",
+      "purpose": "Quality can reduce resource waste"
+    },
+    {
+      "site_id": "site-visual-m10-evaluation-evidence",
+      "route": "assets/visuals/diagrams/m10-evaluation-evidence.svg",
+      "audience": "student",
+      "purpose": "Evaluation is a judgement supported by evidence"
+    },
+    {
+      "site_id": "site-visual-m10-system-feedback",
+      "route": "assets/visuals/diagrams/m10-system-feedback.svg",
+      "audience": "student",
+      "purpose": "Feedback closes the engineering loop"
+    },
+    {
+      "site_id": "site-visual-m10-connected-systems",
+      "route": "assets/visuals/diagrams/m10-connected-systems.svg",
+      "audience": "student",
+      "purpose": "Engineering systems connect people, place and purpose"
+    },
+    {
+      "site_id": "site-teacher-program-docx",
+      "route": "resources/teacher/Catapult-25-Lesson-Teaching-Program-v1.0.0.docx",
+      "audience": "teacher",
+      "purpose": "editable teaching program"
+    },
+    {
+      "site_id": "site-delivery-register-docx",
+      "route": "resources/teacher/Catapult-Delivery-Register-v1.0.0.docx",
+      "audience": "teacher",
+      "purpose": "editable delivery register"
+    }
+  ],
+  "delivery_sequence": [
+    {
+      "period": 1,
+      "week": 1,
+      "planned_focus": "Catapult as an engineered system",
+      "primary_type": "Site/theory",
+      "site_ids": [
+        "site-m01-s1-theory",
+        "site-m01-s1-check",
+        "site-m01-s2-theory",
+        "site-m01-s2-check",
+        "site-m01-video",
+        "site-m01-presentation",
+        "site-bank-01"
+      ],
+      "planned_evidence": "Checks m01-s1-q1 to m01-s2-q2; annotated system map.",
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "descriptor_ids": [
+        "ETS-ID-01",
+        "ETS-ID-02"
+      ],
+      "practical_authority": "not-required",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    },
+    {
+      "period": 2,
+      "week": 1,
+      "planned_focus": "Brief, constraints and evidence",
+      "primary_type": "Project/folio",
+      "site_ids": [
+        "site-m01-s3-theory",
+        "site-m01-s3-check",
+        "site-m01-activity",
+        "site-m01-capstone",
+        "site-folio-01",
+        "site-bank-02"
+      ],
+      "planned_evidence": "Checks m01-s3-q1-q2; ala-m01; m01-capstone; Folio 1 brief and criteria.",
+      "outcome_codes": [
+        "TE4-DES-01",
+        "TE4-PPM-01"
+      ],
+      "descriptor_ids": [
+        "ETS-ID-03",
+        "ETS-RP-06"
+      ],
+      "practical_authority": "not-required",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    },
+    {
+      "period": 3,
+      "week": 1,
+      "planned_focus": "Workshop orientation and readiness",
+      "primary_type": "Practical",
+      "site_ids": [
+        "site-m02-s1-theory",
+        "site-m02-s1-check",
+        "site-folio-05"
+      ],
+      "planned_evidence": "Teacher-controlled readiness record; student safety notes. Exact OnGuard modules and local controls are Teacher to confirm.",
+      "outcome_codes": [
+        "TE4-SAF-01"
+      ],
+      "descriptor_ids": [
+        "ETS-PI-03"
+      ],
+      "practical_authority": "teacher-controlled",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    },
+    {
+      "period": 4,
+      "week": 2,
+      "planned_focus": "Tools, materials and planned safety",
+      "primary_type": "Site/theory",
+      "site_ids": [
+        "site-m02-s1-theory",
+        "site-m02-s1-check",
+        "site-m02-s2-theory",
+        "site-m02-s2-check",
+        "site-m02-s3-theory",
+        "site-m02-s3-check",
+        "site-m02-activity",
+        "site-m02-capstone",
+        "site-m02-video",
+        "site-m02-presentation",
+        "site-folio-02",
+        "site-bank-03"
+      ],
+      "planned_evidence": "Six Module 2 checks; ala-m02; m02-capstone; one source-aware Folio 2 finding.",
+      "outcome_codes": [
+        "TE4-SAF-01",
+        "TE4-MSC-01"
+      ],
+      "descriptor_ids": [
+        "ETS-PI-01",
+        "ETS-RP-02"
+      ],
+      "practical_authority": "not-required",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    },
+    {
+      "period": 5,
+      "week": 2,
+      "planned_focus": "Teacher-approved material and tool-function practice",
+      "primary_type": "Practical",
+      "site_ids": [
+        "site-m02-s2-theory",
+        "site-m02-s2-check",
+        "site-m02-s3-theory",
+        "site-m02-s3-check",
+        "site-folio-05"
+      ],
+      "planned_evidence": "Teacher observation/readiness record and Folio 5 planning note; no automated competence claim.",
+      "outcome_codes": [
+        "TE4-SAF-01",
+        "TE4-PPM-01"
+      ],
+      "descriptor_ids": [
+        "ETS-PI-02",
+        "ETS-PI-03"
+      ],
+      "practical_authority": "teacher-controlled",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    },
+    {
+      "period": 6,
+      "week": 3,
+      "planned_focus": "Energy stores and lever moments",
+      "primary_type": "Site/theory",
+      "site_ids": [
+        "site-m03-s1-theory",
+        "site-m03-s1-check",
+        "site-m03-s2-theory",
+        "site-m03-s2-check",
+        "site-m03-video",
+        "site-m03-presentation",
+        "site-bank-04"
+      ],
+      "planned_evidence": "Checks m03-s1-q1 to m03-s2-q2; labelled lever explanation and theory calculations.",
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "descriptor_ids": [
+        "ETS-RP-03",
+        "ETS-ID-02"
+      ],
+      "practical_authority": "not-required",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    },
+    {
+      "period": 7,
+      "week": 3,
+      "planned_focus": "Woomera context and design reasoning",
+      "primary_type": "Project/folio",
+      "site_ids": [
+        "site-m03-s3-theory",
+        "site-m03-s3-check",
+        "site-m03-activity",
+        "site-m03-capstone",
+        "site-folio-02",
+        "site-bank-12"
+      ],
+      "planned_evidence": "Checks m03-s3-q1-q2; ala-m03; m03-capstone; source-aware Folio 2 entry.",
+      "outcome_codes": [
+        "TE4-PDP-01",
+        "TE4-DES-01"
+      ],
+      "descriptor_ids": [
+        "ETS-RP-01",
+        "ETS-RP-06"
+      ],
+      "practical_authority": "not-required",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    },
+    {
+      "period": 8,
+      "week": 3,
+      "planned_focus": "Teacher-controlled lever observation",
+      "primary_type": "Practical",
+      "site_ids": [
+        "site-m03-s2-theory",
+        "site-m03-s2-check",
+        "site-folio-02"
+      ],
+      "planned_evidence": "Annotated observation and teacher-controlled practical record.",
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-SAF-01"
+      ],
+      "descriptor_ids": [
+        "ETS-RP-03"
+      ],
+      "practical_authority": "teacher-controlled",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    },
+    {
+      "period": 9,
+      "week": 4,
+      "planned_focus": "Force, energy, Newton's laws and fair prototypes",
+      "primary_type": "Site/theory",
+      "site_ids": [
+        "site-m04-s1-theory",
+        "site-m04-s1-check",
+        "site-m04-s2-theory",
+        "site-m04-s2-check",
+        "site-m04-s3-theory",
+        "site-m04-s3-check",
+        "site-m04-video",
+        "site-m04-presentation",
+        "site-bank-05"
+      ],
+      "planned_evidence": "Six Module 4 checks; energy-chain and fair-test reasoning.",
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "descriptor_ids": [
+        "ETS-RP-03",
+        "ETS-TE-01"
+      ],
+      "practical_authority": "not-required",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    },
+    {
+      "period": 10,
+      "week": 4,
+      "planned_focus": "Prototype question and fair evidence",
+      "primary_type": "Practical",
+      "site_ids": [
+        "site-m04-s3-theory",
+        "site-m04-s3-check",
+        "site-m04-activity",
+        "site-m04-capstone",
+        "site-folio-07"
+      ],
+      "planned_evidence": "ala-m04; m04-capstone; prototype/test note that can later support Folio 7.",
+      "outcome_codes": [
+        "TE4-DES-01",
+        "TE4-SAF-01"
+      ],
+      "descriptor_ids": [
+        "ETS-TE-01",
+        "ETS-TE-03"
+      ],
+      "practical_authority": "teacher-controlled",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    },
+    {
+      "period": 11,
+      "week": 5,
+      "planned_focus": "Ideas and drawings that agree",
+      "primary_type": "Site/theory",
+      "site_ids": [
+        "site-m05-s1-theory",
+        "site-m05-s1-check",
+        "site-m05-s2-theory",
+        "site-m05-s2-check",
+        "site-m05-video",
+        "site-m05-presentation",
+        "site-folio-03"
+      ],
+      "planned_evidence": "Checks m05-s1-q1 to m05-s2-q2; Folio 3 idea comparison; teacher-assigned paper drawings where applicable.",
+      "outcome_codes": [
+        "TE4-DES-01",
+        "TE4-PPM-01"
+      ],
+      "descriptor_ids": [
+        "ETS-RP-06",
+        "ETS-RP-08"
+      ],
+      "practical_authority": "not-required",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    },
+    {
+      "period": 12,
+      "week": 5,
+      "planned_focus": "Cutting list, material arithmetic and design approval",
+      "primary_type": "Project/folio",
+      "site_ids": [
+        "site-m05-s3-theory",
+        "site-m05-s3-check",
+        "site-m05-activity",
+        "site-m05-capstone",
+        "site-folio-04",
+        "site-bank-06"
+      ],
+      "planned_evidence": "Checks m05-s3-q1-q2; ala-m05; m05-capstone; Folio 4 selection and consistency record.",
+      "outcome_codes": [
+        "TE4-DES-01",
+        "TE4-PPM-01"
+      ],
+      "descriptor_ids": [
+        "ETS-RP-07",
+        "ETS-PI-04"
+      ],
+      "practical_authority": "not-required",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    },
+    {
+      "period": 13,
+      "week": 5,
+      "planned_focus": "Approved transition from design to making",
+      "primary_type": "Practical",
+      "site_ids": [
+        "site-m06-s1-theory",
+        "site-m06-s1-check",
+        "site-folio-04",
+        "site-folio-06"
+      ],
+      "planned_evidence": "Teacher approval/readiness record; first Folio 6 checkpoint; no website claim of practical competence.",
+      "outcome_codes": [
+        "TE4-PPM-01",
+        "TE4-SAF-01"
+      ],
+      "descriptor_ids": [
+        "ETS-PI-01",
+        "ETS-PI-02"
+      ],
+      "practical_authority": "teacher-controlled",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    },
+    {
+      "period": 14,
+      "week": 6,
+      "planned_focus": "Production sequence, load paths and quality evidence",
+      "primary_type": "Site/theory",
+      "site_ids": [
+        "site-m06-s1-theory",
+        "site-m06-s1-check",
+        "site-m06-s2-theory",
+        "site-m06-s2-check",
+        "site-m06-s3-theory",
+        "site-m06-s3-check",
+        "site-m06-activity",
+        "site-m06-capstone",
+        "site-m06-video",
+        "site-m06-presentation",
+        "site-folio-05",
+        "site-bank-07"
+      ],
+      "planned_evidence": "Six Module 6 checks; ala-m06; m06-capstone; Folio 5 production-plan draft.",
+      "outcome_codes": [
+        "TE4-PPM-01",
+        "TE4-MSC-01"
+      ],
+      "descriptor_ids": [
+        "ETS-PI-04",
+        "ETS-RP-04"
+      ],
+      "practical_authority": "not-required",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    },
+    {
+      "period": 15,
+      "week": 6,
+      "planned_focus": "Base/frame production and checkpoint evidence",
+      "primary_type": "Practical",
+      "site_ids": [
+        "site-m06-s1-theory",
+        "site-m06-s1-check",
+        "site-m06-s3-theory",
+        "site-m06-s3-check",
+        "site-folio-06"
+      ],
+      "planned_evidence": "Teacher practical observation; Folio 6 checkpoint and captioned optional image.",
+      "outcome_codes": [
+        "TE4-PPM-01",
+        "TE4-SAF-01"
+      ],
+      "descriptor_ids": [
+        "ETS-PI-01",
+        "ETS-PI-03"
+      ],
+      "practical_authority": "teacher-controlled",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    },
+    {
+      "period": 16,
+      "week": 7,
+      "planned_focus": "Component interaction, alignment and quality",
+      "primary_type": "Site/theory",
+      "site_ids": [
+        "site-m07-s1-theory",
+        "site-m07-s1-check",
+        "site-m07-s2-theory",
+        "site-m07-s2-check",
+        "site-m07-s3-theory",
+        "site-m07-s3-check",
+        "site-m07-activity",
+        "site-m07-capstone",
+        "site-m07-video",
+        "site-m07-presentation"
+      ],
+      "planned_evidence": "Six Module 7 checks; ala-m07; m07-capstone quality decision.",
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PPM-01"
+      ],
+      "descriptor_ids": [
+        "ETS-PI-02",
+        "ETS-RP-04"
+      ],
+      "practical_authority": "not-required",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    },
+    {
+      "period": 17,
+      "week": 7,
+      "planned_focus": "Teacher-approved assembly and quality checks",
+      "primary_type": "Practical",
+      "site_ids": [
+        "site-m07-s2-theory",
+        "site-m07-s2-check",
+        "site-m07-s3-theory",
+        "site-m07-s3-check",
+        "site-folio-06"
+      ],
+      "planned_evidence": "Teacher observation and Folio 6 checkpoint; practical authority remains outside the website.",
+      "outcome_codes": [
+        "TE4-SAF-01",
+        "TE4-PPM-01"
+      ],
+      "descriptor_ids": [
+        "ETS-PI-01",
+        "ETS-PI-03"
+      ],
+      "practical_authority": "teacher-controlled",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    },
+    {
+      "period": 18,
+      "week": 7,
+      "planned_focus": "Production log and quality evidence conference",
+      "primary_type": "Project/folio",
+      "site_ids": [
+        "site-m06-s3-theory",
+        "site-m06-s3-check",
+        "site-m07-s3-theory",
+        "site-m07-s3-check",
+        "site-folio-05",
+        "site-folio-06",
+        "site-bank-08"
+      ],
+      "planned_evidence": "Updated approved production plan; selected quality checkpoints; teacher next-step note.",
+      "outcome_codes": [
+        "TE4-PPM-01",
+        "TE4-DES-01"
+      ],
+      "descriptor_ids": [
+        "ETS-PI-04",
+        "ETS-TE-02"
+      ],
+      "practical_authority": "not-required",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    },
+    {
+      "period": 19,
+      "week": 8,
+      "planned_focus": "Testable questions, repeated data and redesign",
+      "primary_type": "Site/theory",
+      "site_ids": [
+        "site-m08-s1-theory",
+        "site-m08-s1-check",
+        "site-m08-s2-theory",
+        "site-m08-s2-check",
+        "site-m08-s3-theory",
+        "site-m08-s3-check",
+        "site-m08-video",
+        "site-m08-presentation",
+        "site-bank-09"
+      ],
+      "planned_evidence": "Six Module 8 checks; practice mean/range and claim-evidence-reasoning decision.",
+      "outcome_codes": [
+        "TE4-DES-01",
+        "TE4-MSC-01"
+      ],
+      "descriptor_ids": [
+        "ETS-TE-01",
+        "ETS-TE-04"
+      ],
+      "practical_authority": "not-required",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    },
+    {
+      "period": 20,
+      "week": 8,
+      "planned_focus": "Teacher-controlled testing and one redesign decision",
+      "primary_type": "Practical",
+      "site_ids": [
+        "site-m08-s1-theory",
+        "site-m08-s1-check",
+        "site-m08-s2-theory",
+        "site-m08-s2-check",
+        "site-m08-s3-theory",
+        "site-m08-s3-check",
+        "site-m08-activity",
+        "site-m08-capstone",
+        "site-folio-07"
+      ],
+      "planned_evidence": "ala-m08; m08-capstone; teacher-authorised repeated results and Folio 7 redesign reasoning.",
+      "outcome_codes": [
+        "TE4-DES-01",
+        "TE4-SAF-01"
+      ],
+      "descriptor_ids": [
+        "ETS-TE-02",
+        "ETS-TE-03"
+      ],
+      "practical_authority": "teacher-controlled",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    },
+    {
+      "period": 21,
+      "week": 9,
+      "planned_focus": "Engineering report and evidence-based judgement",
+      "primary_type": "Site/theory",
+      "site_ids": [
+        "site-m09-s1-theory",
+        "site-m09-s1-check",
+        "site-m09-s2-theory",
+        "site-m09-s2-check",
+        "site-m09-video",
+        "site-m09-presentation",
+        "site-bank-10"
+      ],
+      "planned_evidence": "Checks m09-s1-q1 to m09-s2-q2; repaired claim-evidence-reasoning paragraph.",
+      "outcome_codes": [
+        "TE4-DES-01",
+        "TE4-PDP-01"
+      ],
+      "descriptor_ids": [
+        "ETS-TE-04",
+        "ETS-TE-06"
+      ],
+      "practical_authority": "not-required",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    },
+    {
+      "period": 22,
+      "week": 9,
+      "planned_focus": "Final teacher-approved adjustment and quality evidence",
+      "primary_type": "Practical",
+      "site_ids": [
+        "site-m07-s3-theory",
+        "site-m07-s3-check",
+        "site-m09-s2-theory",
+        "site-m09-s2-check",
+        "site-folio-06",
+        "site-folio-08"
+      ],
+      "planned_evidence": "Teacher observation, quality comparison and Folio 6/8 evidence selection.",
+      "outcome_codes": [
+        "TE4-DES-01",
+        "TE4-SAF-01"
+      ],
+      "descriptor_ids": [
+        "ETS-RP-04",
+        "ETS-TE-06"
+      ],
+      "practical_authority": "teacher-controlled",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    },
+    {
+      "period": 23,
+      "week": 9,
+      "planned_focus": "Sustainability, report completion and assessment preparation",
+      "primary_type": "Project/folio",
+      "site_ids": [
+        "site-m09-s3-theory",
+        "site-m09-s3-check",
+        "site-m09-activity",
+        "site-m09-capstone",
+        "site-folio-08",
+        "site-bank-11",
+        "site-assessment"
+      ],
+      "planned_evidence": "Checks m09-s3-q1-q2; ala-m09; m09-capstone; Folio 8 evaluation and report draft.",
+      "outcome_codes": [
+        "TE4-SDP-01",
+        "TE4-DES-01"
+      ],
+      "descriptor_ids": [
+        "ETS-TE-05",
+        "ETS-RP-05"
+      ],
+      "practical_authority": "not-required",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    },
+    {
+      "period": 24,
+      "week": 10,
+      "planned_focus": "Demonstration, evaluation and connected systems",
+      "primary_type": "Site/theory",
+      "site_ids": [
+        "site-m10-s1-theory",
+        "site-m10-s1-check",
+        "site-m10-s2-theory",
+        "site-m10-s2-check",
+        "site-m10-s3-theory",
+        "site-m10-s3-check",
+        "site-m10-activity",
+        "site-m10-capstone",
+        "site-m10-video",
+        "site-m10-presentation",
+        "site-folio-08",
+        "site-bank-12"
+      ],
+      "planned_evidence": "Six Module 10 checks; ala-m10; m10-capstone; respectful connected-systems explanation.",
+      "outcome_codes": [
+        "TE4-SDP-01",
+        "TE4-PDP-01",
+        "TE4-DES-01"
+      ],
+      "descriptor_ids": [
+        "ETS-RP-01",
+        "ETS-RP-05"
+      ],
+      "practical_authority": "not-required",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    },
+    {
+      "period": 25,
+      "week": 10,
+      "planned_focus": "Teacher-controlled demonstration and final evidence check",
+      "primary_type": "Practical",
+      "site_ids": [
+        "site-m10-s1-theory",
+        "site-m10-s1-check",
+        "site-m10-s2-theory",
+        "site-m10-s2-check",
+        "site-folio-08",
+        "site-assessment"
+      ],
+      "planned_evidence": "Teacher observation; final criterion-evidence judgement; teacher-directed folio/export/submission record.",
+      "outcome_codes": [
+        "TE4-DES-01",
+        "TE4-SAF-01",
+        "TE4-PPM-01"
+      ],
+      "descriptor_ids": [
+        "ETS-TE-06",
+        "ETS-TE-03"
+      ],
+      "practical_authority": "teacher-controlled",
+      "date_taught": "",
+      "teacher_initials": "",
+      "completion_or_variance": "",
+      "evidence_checked": "",
+      "adjustments": "",
+      "follow_up": ""
+    }
+  ],
+  "coverage_summary": {
+    "modules": 10,
+    "named_theory_sections": 30,
+    "knowledge_check_questions": 60,
+    "capstones": 10,
+    "lesson_linked_activities": 10,
+    "activity_bank_items": 12,
+    "folio_stages": 8,
+    "videos": 10,
+    "presentations": 10,
+    "purposeful_visuals": 41,
+    "visual_assets_available": 42,
+    "provisional_lesson_blocks": 25
+  },
+  "integration_gap": {
+    "state": "resolved-by-integrator",
+    "detail": "teacher-resources.html links the final teaching program and delivery register; the frozen integration manifest binds the completed route and files."
+  }
+}

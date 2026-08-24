@@ -1,0 +1,3761 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "catapult-teacher-program",
+  "version": "1.0.0",
+  "build_id": "catapult-program-20260824-v1.0.0",
+  "generated": "2026-08-24T14:29:14+10:00",
+  "course": "Technology 7-8 - Engineering technologies and systems - Catapult",
+  "cohort": "Year 8",
+  "delivery_year": 2026,
+  "duration": {
+    "source_sequence": "10 weeks",
+    "planning_scaffold": "25 provisional lesson blocks",
+    "timetable_status": "Teacher to confirm before issue"
+  },
+  "source_contract": {
+    "artifact_id": "catapult-source-map",
+    "version": "1.0",
+    "sha256": "43cabf0f401df6aa3e988dcbb33c55a7af17720cd65a66e35cf07ae0a7b76ff3"
+  },
+  "integration_baseline": {
+    "artifact_id": "catapult-integrated-local-baseline-v1.0-stage14-input",
+    "sha256": "101a10ec64e39822709fb34beefb3306bb0f5e6eeef93153a89f7c2c73f9e224",
+    "file_count": 85
+  },
+  "candidate_binding_sha256": "fb51b6378c9b68ccd5488aea04ad8122bf3b3fb42346a9f2503a7caca7c9d310",
+  "syllabus_basis": {
+    "title": "Technology 7-8 Syllabus (2023)",
+    "version": "2023",
+    "outcome_code_family": "TE4",
+    "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/technology-7-8-2023/overview/course",
+    "verified_date": "2026-08-24",
+    "mandatory_from": 2026,
+    "implementation_status": "current mandatory implementation",
+    "delivery_year": 2026
+  },
+  "authority_state": "School-developed and NESA-aligned; local teacher review only; not NESA-approved or a formal assessment notification.",
+  "release_state": {
+    "local": "built",
+    "committed": "not authorised",
+    "pushed": "not authorised",
+    "deployed": "not authorised",
+    "live_verified": "not applicable"
+  },
+  "sources": [
+    {
+      "source_id": "SRC-REQUEST",
+      "title": "Steve's Year 8 Catapult build instruction",
+      "authority_domain": "cohort, project and local-build authority"
+    },
+    {
+      "source_id": "SRC-BOOKLET",
+      "title": "Catapult Booklet 2026.pdf",
+      "sha256": "2fd44bec93c0d652f7879c394c8060e5f4b75b3b43e29c64a65a6a3132e8a5c5",
+      "authority_domain": "practical brief and folio prompts"
+    },
+    {
+      "source_id": "SRC-UNIT",
+      "title": "Engineering technologies and systems teacher unit",
+      "sha256": "5557644675abb3c35243ae0988e5ae1ef8a926b648a53542581699e01f89cf5e",
+      "authority_domain": "10-week sequence"
+    },
+    {
+      "source_id": "SRC-ASSESSMENT",
+      "title": "Year 8 Assessment Booklet 2026",
+      "sha256": "33d4275c3f773c96e66bebea7b84b4e740ed686232d46c20d82766fdbfb99c4c",
+      "authority_domain": "60/25/15 schedule only"
+    },
+    {
+      "source_id": "SRC-NESA-OUTCOMES",
+      "title": "Technology 7-8 Syllabus (2023) outcomes",
+      "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/technology-7-8-2023/outcomes",
+      "verified_date": "2026-08-24"
+    },
+    {
+      "source_id": "SRC-NESA-ENG",
+      "title": "Stage 4 Engineering technologies and systems content",
+      "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/technology-7-8-2023/content/stage-4/faf90a0673",
+      "verified_date": "2026-08-24"
+    },
+    {
+      "source_id": "SRC-THEORY",
+      "title": "Catapult theory draft v1.0",
+      "sha256": "ef6062783a5b688c9a97dad0cbb35e01be6c1297d3bd16c527c0a8a90d27a821"
+    },
+    {
+      "source_id": "SRC-LEARNING",
+      "title": "Catapult learning evidence v1.0",
+      "sha256": "19b748a2d12da603bc8c55dc2d76c2a605ff20d64941b87716aa2f046fecadf9"
+    },
+    {
+      "source_id": "SRC-CULTURAL",
+      "title": "Catapult cultural source brief",
+      "authority_domain": "named public cultural source boundary"
+    },
+    {
+      "source_id": "SRC-VIDEO",
+      "title": "Catapult video data v1.0",
+      "sha256": "941047fe6dd17bf5cb62e3839b264808d96f9a6c7b012b8973703ddcd0c84d2d"
+    },
+    {
+      "source_id": "SRC-VISUAL",
+      "title": "Catapult visual manifest v1.0",
+      "sha256": "f181d43e3c66fc99f6050019fc83eed6e86660dac78cf8470dd8b77f5043b339"
+    },
+    {
+      "source_id": "SRC-PRESENTATIONS",
+      "title": "Catapult presentation manifest v1.0",
+      "sha256": "4e76efc81300793cd3c46c46355a6365e327b5925de3c154a9ea67e5382ffe19"
+    }
+  ],
+  "outcomes": [
+    {
+      "code": "TE4-SDP-01",
+      "statement": "explains relationships between sustainability, design and production",
+      "source_id": "SRC-NESA-OUTCOMES",
+      "module_ids": [
+        "m09",
+        "m10"
+      ]
+    },
+    {
+      "code": "TE4-PDP-01",
+      "statement": "describes the practices and processes of designers and producers",
+      "source_id": "SRC-NESA-OUTCOMES",
+      "module_ids": [
+        "m01",
+        "m03",
+        "m04",
+        "m09",
+        "m10"
+      ]
+    },
+    {
+      "code": "TE4-MSC-01",
+      "statement": "explains how materials, systems and components contribute to solutions",
+      "source_id": "SRC-NESA-OUTCOMES",
+      "module_ids": [
+        "m01",
+        "m02",
+        "m03",
+        "m04",
+        "m06",
+        "m07",
+        "m08"
+      ]
+    },
+    {
+      "code": "TE4-PPM-01",
+      "statement": "applies processes in the planning, management and production of projects",
+      "source_id": "SRC-NESA-OUTCOMES",
+      "module_ids": [
+        "m01",
+        "m02",
+        "m05",
+        "m06",
+        "m07",
+        "m10"
+      ]
+    },
+    {
+      "code": "TE4-DES-01",
+      "statement": "communicates and evaluates design ideas and solutions",
+      "source_id": "SRC-NESA-OUTCOMES",
+      "module_ids": [
+        "m01",
+        "m03",
+        "m04",
+        "m05",
+        "m07",
+        "m08",
+        "m09",
+        "m10"
+      ]
+    },
+    {
+      "code": "TE4-SAF-01",
+      "statement": "selects and safely uses tools, materials, technologies and processes",
+      "source_id": "SRC-NESA-OUTCOMES",
+      "module_ids": [
+        "m02",
+        "m03",
+        "m04",
+        "m05",
+        "m06",
+        "m07",
+        "m08",
+        "m09",
+        "m10"
+      ]
+    }
+  ],
+  "content_descriptor_register": [
+    {
+      "descriptor_id": "ETS-ID-01",
+      "wording": "Identify the characteristics and properties of components in engineered systems.",
+      "source_id": "SRC-NESA-ENG"
+    },
+    {
+      "descriptor_id": "ETS-ID-02",
+      "wording": "Describe products, systems and technologies developed by engineers and manufacturers.",
+      "source_id": "SRC-NESA-ENG"
+    },
+    {
+      "descriptor_id": "ETS-ID-03",
+      "wording": "Outline factors affecting the design of engineered systems.",
+      "source_id": "SRC-NESA-ENG"
+    },
+    {
+      "descriptor_id": "ETS-RP-01",
+      "wording": "Investigate engineered systems created by Aboriginal and Torres Strait Islander Peoples.",
+      "source_id": "SRC-NESA-ENG"
+    },
+    {
+      "descriptor_id": "ETS-RP-02",
+      "wording": "Describe how engineered solutions use materials, components and systems.",
+      "source_id": "SRC-NESA-ENG"
+    },
+    {
+      "descriptor_id": "ETS-RP-03",
+      "wording": "Explain how force, motion and energy apply to engineered systems.",
+      "source_id": "SRC-NESA-ENG"
+    },
+    {
+      "descriptor_id": "ETS-RP-04",
+      "wording": "Investigate how engineering technologies and systems can improve production quality.",
+      "source_id": "SRC-NESA-ENG"
+    },
+    {
+      "descriptor_id": "ETS-RP-05",
+      "wording": "Explore engineered solutions that address societal needs and contribute to sustainability.",
+      "source_id": "SRC-NESA-ENG"
+    },
+    {
+      "descriptor_id": "ETS-RP-06",
+      "wording": "Apply design and systems thinking to assess ideas and develop quality solutions.",
+      "source_id": "SRC-NESA-ENG"
+    },
+    {
+      "descriptor_id": "ETS-RP-07",
+      "wording": "Collect data and information to develop engineered solutions.",
+      "source_id": "SRC-NESA-ENG"
+    },
+    {
+      "descriptor_id": "ETS-RP-08",
+      "wording": "Use graphical communication techniques to present ideas for products and systems.",
+      "source_id": "SRC-NESA-ENG"
+    },
+    {
+      "descriptor_id": "ETS-PI-01",
+      "wording": "Use materials, components, processes and technologies to develop engineering skills.",
+      "source_id": "SRC-NESA-ENG"
+    },
+    {
+      "descriptor_id": "ETS-PI-02",
+      "wording": "Select components, technologies and systems to make engineering solutions and projects.",
+      "source_id": "SRC-NESA-ENG"
+    },
+    {
+      "descriptor_id": "ETS-PI-03",
+      "wording": "Demonstrate safe practices when selecting and using tools, processes and technologies.",
+      "source_id": "SRC-NESA-ENG"
+    },
+    {
+      "descriptor_id": "ETS-PI-04",
+      "wording": "Document design and production processes when developing projects.",
+      "source_id": "SRC-NESA-ENG"
+    },
+    {
+      "descriptor_id": "ETS-TE-01",
+      "wording": "Apply engineering processes to create and evaluate prototypes and working models.",
+      "source_id": "SRC-NESA-ENG"
+    },
+    {
+      "descriptor_id": "ETS-TE-02",
+      "wording": "Justify materials and components used when testing engineering technologies and systems.",
+      "source_id": "SRC-NESA-ENG"
+    },
+    {
+      "descriptor_id": "ETS-TE-03",
+      "wording": "Work collaboratively to test, modify and improve engineered solutions.",
+      "source_id": "SRC-NESA-ENG"
+    },
+    {
+      "descriptor_id": "ETS-TE-04",
+      "wording": "Use results of testing and evaluating to contribute to an engineering report.",
+      "source_id": "SRC-NESA-ENG"
+    },
+    {
+      "descriptor_id": "ETS-TE-05",
+      "wording": "Evaluate engineering technologies and systems developed to improve sustainability.",
+      "source_id": "SRC-NESA-ENG"
+    },
+    {
+      "descriptor_id": "ETS-TE-06",
+      "wording": "Use factors affecting design to evaluate the quality of engineered solutions.",
+      "source_id": "SRC-NESA-ENG"
+    }
+  ],
+  "modules": [
+    {
+      "module_id": "m01",
+      "title": "The Catapult Engineering Challenge",
+      "timing": {
+        "provisional_lessons": [
+          1,
+          2
+        ],
+        "week_range": [
+          1
+        ]
+      },
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-DES-01",
+        "TE4-PPM-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m01-s1",
+          "title": "A system is more than a set of parts",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-ID-01",
+              "wording": "Identify the characteristics and properties of components in engineered systems.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain a system is more than a set of parts and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 1 capstone: Turn the brief into a system plan.",
+          "formative_checks": [
+            "m01-s1-q1",
+            "m01-s1-q2"
+          ],
+          "adjustments": [
+            "Use the sentence frame: ‘The system takes ___ as an input, ___ changes or transfers it, and the output is ___.’",
+            "Add a second feedback source and explain which design decision it could change.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m01-presentation",
+            "site-m01-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m01-s1-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m01-s1-check"
+              ]
+            },
+            "evidence": {
+              "state": "shared-capstone",
+              "shared_with_section_id": "m01-s3"
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m01-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m01-video",
+                "site-m01-presentation"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "m01-s2",
+          "title": "Inputs, processes, outputs and feedback",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-ID-02",
+              "wording": "Describe products, systems and technologies developed by engineers and manufacturers.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain inputs, processes, outputs and feedback and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 1 capstone: Turn the brief into a system plan.",
+          "formative_checks": [
+            "m01-s2-q1",
+            "m01-s2-q2"
+          ],
+          "adjustments": [
+            "Use the sentence frame: ‘The system takes ___ as an input, ___ changes or transfers it, and the output is ___.’",
+            "Add a second feedback source and explain which design decision it could change.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m01-presentation",
+            "site-m01-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m01-s2-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m01-s2-check"
+              ]
+            },
+            "evidence": {
+              "state": "shared-capstone",
+              "shared_with_section_id": "m01-s3"
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m01-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m01-video",
+                "site-m01-presentation"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "m01-s3",
+          "title": "Reading the brief as an engineer",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-ID-03",
+              "wording": "Outline factors affecting the design of engineered systems.",
+              "source_id": "SRC-NESA-ENG"
+            },
+            {
+              "descriptor_id": "ETS-RP-06",
+              "wording": "Apply design and systems thinking to assess ideas and develop quality solutions.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain reading the brief as an engineer and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 1 capstone: Turn the brief into a system plan.",
+          "formative_checks": [
+            "m01-s3-q1",
+            "m01-s3-q2"
+          ],
+          "adjustments": [
+            "Use the sentence frame: ‘The system takes ___ as an input, ___ changes or transfers it, and the output is ___.’",
+            "Add a second feedback source and explain which design decision it could change.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m01-presentation",
+            "site-m01-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m01-s3-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m01-s3-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m01-capstone"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m01-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m01-video",
+                "site-m01-presentation"
+              ]
+            }
+          }
+        }
+      ],
+      "presentation_site_id": "site-m01-presentation",
+      "video_site_id": "site-m01-video",
+      "activity_site_id": "site-m01-activity",
+      "capstone_site_id": "site-m01-capstone"
+    },
+    {
+      "module_id": "m02",
+      "title": "Workshop Readiness, Tools and Materials",
+      "timing": {
+        "provisional_lessons": [
+          3,
+          4,
+          5
+        ],
+        "week_range": [
+          1,
+          2
+        ]
+      },
+      "outcome_codes": [
+        "TE4-SAF-01",
+        "TE4-MSC-01",
+        "TE4-PPM-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m02-s1",
+          "title": "Safety is a planned system",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-PI-03",
+              "wording": "Demonstrate safe practices when selecting and using tools, processes and technologies.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain safety is a planned system and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 2 capstone: Make a source-safe workshop decision.",
+          "formative_checks": [
+            "m02-s1-q1",
+            "m02-s1-q2"
+          ],
+          "adjustments": [
+            "Use: ‘The function needs ___, so the relevant property is ___. Before practical work, the teacher must confirm ___.’",
+            "Compare two possible material choices using function, workability, durability and sustainability, without changing the authorised project materials.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m02-presentation",
+            "site-m02-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m02-s1-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m02-s1-check"
+              ]
+            },
+            "evidence": {
+              "state": "shared-capstone",
+              "shared_with_section_id": "m02-s3"
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m02-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m02-video",
+                "site-m02-presentation"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "m02-s2",
+          "title": "Select tools by function",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-PI-01",
+              "wording": "Use materials, components, processes and technologies to develop engineering skills.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain select tools by function and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 2 capstone: Make a source-safe workshop decision.",
+          "formative_checks": [
+            "m02-s2-q1",
+            "m02-s2-q2"
+          ],
+          "adjustments": [
+            "Use: ‘The function needs ___, so the relevant property is ___. Before practical work, the teacher must confirm ___.’",
+            "Compare two possible material choices using function, workability, durability and sustainability, without changing the authorised project materials.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m02-presentation",
+            "site-m02-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m02-s2-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m02-s2-check"
+              ]
+            },
+            "evidence": {
+              "state": "shared-capstone",
+              "shared_with_section_id": "m02-s3"
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m02-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m02-video",
+                "site-m02-presentation"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "m02-s3",
+          "title": "Pine, grain and elastic behaviour",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-RP-02",
+              "wording": "Describe how engineered solutions use materials, components and systems.",
+              "source_id": "SRC-NESA-ENG"
+            },
+            {
+              "descriptor_id": "ETS-TE-02",
+              "wording": "Justify materials and components used when testing engineering technologies and systems.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain pine, grain and elastic behaviour and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 2 capstone: Make a source-safe workshop decision.",
+          "formative_checks": [
+            "m02-s3-q1",
+            "m02-s3-q2"
+          ],
+          "adjustments": [
+            "Use: ‘The function needs ___, so the relevant property is ___. Before practical work, the teacher must confirm ___.’",
+            "Compare two possible material choices using function, workability, durability and sustainability, without changing the authorised project materials.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m02-presentation",
+            "site-m02-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m02-s3-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m02-s3-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m02-capstone"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m02-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m02-video",
+                "site-m02-presentation"
+              ]
+            }
+          }
+        }
+      ],
+      "presentation_site_id": "site-m02-presentation",
+      "video_site_id": "site-m02-video",
+      "activity_site_id": "site-m02-activity",
+      "capstone_site_id": "site-m02-capstone"
+    },
+    {
+      "module_id": "m03",
+      "title": "Siege Engines, Levers and the Woomera",
+      "timing": {
+        "provisional_lessons": [
+          6,
+          7,
+          8
+        ],
+        "week_range": [
+          3
+        ]
+      },
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-DES-01",
+        "TE4-SAF-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m03-s1",
+          "title": "Different systems, different energy stores",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-ID-02",
+              "wording": "Describe products, systems and technologies developed by engineers and manufacturers.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain different systems, different energy stores and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 3 capstone: Compare systems without flattening their context.",
+          "formative_checks": [
+            "m03-s1-q1",
+            "m03-s1-q2"
+          ],
+          "adjustments": [
+            "Use: ‘Both systems ___. They differ because ___. This matters because ___.’",
+            "Find a second authoritative explanation of one historical system and note whether it confirms or complicates the first account.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m03-presentation",
+            "site-m03-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m03-s1-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m03-s1-check"
+              ]
+            },
+            "evidence": {
+              "state": "shared-capstone",
+              "shared_with_section_id": "m03-s3"
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m03-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m03-video",
+                "site-m03-presentation"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "m03-s2",
+          "title": "Lever moments and trade-offs",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-RP-03",
+              "wording": "Explain how force, motion and energy apply to engineered systems.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain lever moments and trade-offs and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 3 capstone: Compare systems without flattening their context.",
+          "formative_checks": [
+            "m03-s2-q1",
+            "m03-s2-q2"
+          ],
+          "adjustments": [
+            "Use: ‘Both systems ___. They differ because ___. This matters because ___.’",
+            "Find a second authoritative explanation of one historical system and note whether it confirms or complicates the first account.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m03-presentation",
+            "site-m03-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m03-s2-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m03-s2-check"
+              ]
+            },
+            "evidence": {
+              "state": "shared-capstone",
+              "shared_with_section_id": "m03-s3"
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m03-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m03-video",
+                "site-m03-presentation"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "m03-s3",
+          "title": "A woomera in its own cultural and technological context",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-RP-01",
+              "wording": "Investigate engineered systems created by Aboriginal and Torres Strait Islander Peoples.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain a woomera in its own cultural and technological context and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 3 capstone: Compare systems without flattening their context.",
+          "formative_checks": [
+            "m03-s3-q1",
+            "m03-s3-q2"
+          ],
+          "adjustments": [
+            "Use: ‘Both systems ___. They differ because ___. This matters because ___.’",
+            "Find a second authoritative explanation of one historical system and note whether it confirms or complicates the first account.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m03-presentation",
+            "site-m03-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m03-s3-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m03-s3-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m03-capstone"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m03-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m03-video",
+                "site-m03-presentation"
+              ]
+            }
+          }
+        }
+      ],
+      "presentation_site_id": "site-m03-presentation",
+      "video_site_id": "site-m03-video",
+      "activity_site_id": "site-m03-activity",
+      "capstone_site_id": "site-m03-capstone"
+    },
+    {
+      "module_id": "m04",
+      "title": "Force, Motion, Energy and Prototypes",
+      "timing": {
+        "provisional_lessons": [
+          9,
+          10
+        ],
+        "week_range": [
+          4
+        ]
+      },
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-DES-01",
+        "TE4-SAF-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m04-s1",
+          "title": "Following the energy chain",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-RP-03",
+              "wording": "Explain how force, motion and energy apply to engineered systems.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain following the energy chain and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 4 capstone: Explain a fair prototype finding.",
+          "formative_checks": [
+            "m04-s1-q1",
+            "m04-s1-q2"
+          ],
+          "adjustments": [
+            "Use: ‘If ___ changes while ___ stays consistent, I predict ___ because ___.’",
+            "Write a second prediction using a different Newton's law and identify what evidence would distinguish the explanations.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m04-presentation",
+            "site-m04-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m04-s1-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m04-s1-check"
+              ]
+            },
+            "evidence": {
+              "state": "shared-capstone",
+              "shared_with_section_id": "m04-s3"
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m04-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m04-video",
+                "site-m04-presentation"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "m04-s2",
+          "title": "Newton's three laws in one system",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-RP-03",
+              "wording": "Explain how force, motion and energy apply to engineered systems.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain newton's three laws in one system and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 4 capstone: Explain a fair prototype finding.",
+          "formative_checks": [
+            "m04-s2-q1",
+            "m04-s2-q2"
+          ],
+          "adjustments": [
+            "Use: ‘If ___ changes while ___ stays consistent, I predict ___ because ___.’",
+            "Write a second prediction using a different Newton's law and identify what evidence would distinguish the explanations.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m04-presentation",
+            "site-m04-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m04-s2-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m04-s2-check"
+              ]
+            },
+            "evidence": {
+              "state": "shared-capstone",
+              "shared_with_section_id": "m04-s3"
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m04-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m04-video",
+                "site-m04-presentation"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "m04-s3",
+          "title": "Prototypes and fair evidence",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-TE-01",
+              "wording": "Apply engineering processes to create and evaluate prototypes and working models.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain prototypes and fair evidence and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 4 capstone: Explain a fair prototype finding.",
+          "formative_checks": [
+            "m04-s3-q1",
+            "m04-s3-q2"
+          ],
+          "adjustments": [
+            "Use: ‘If ___ changes while ___ stays consistent, I predict ___ because ___.’",
+            "Write a second prediction using a different Newton's law and identify what evidence would distinguish the explanations.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m04-presentation",
+            "site-m04-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m04-s3-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m04-s3-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m04-capstone"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m04-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m04-video",
+                "site-m04-presentation"
+              ]
+            }
+          }
+        }
+      ],
+      "presentation_site_id": "site-m04-presentation",
+      "video_site_id": "site-m04-video",
+      "activity_site_id": "site-m04-activity",
+      "capstone_site_id": "site-m04-capstone"
+    },
+    {
+      "module_id": "m05",
+      "title": "Communicating a Buildable Design",
+      "timing": {
+        "provisional_lessons": [
+          11,
+          12,
+          13
+        ],
+        "week_range": [
+          5
+        ]
+      },
+      "outcome_codes": [
+        "TE4-DES-01",
+        "TE4-PPM-01",
+        "TE4-SAF-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m05-s1",
+          "title": "Develop, compare and select ideas",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-RP-06",
+              "wording": "Apply design and systems thinking to assess ideas and develop quality solutions.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain develop, compare and select ideas and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 5 capstone: Audit a design communication package.",
+          "formative_checks": [
+            "m05-s1-q1",
+            "m05-s1-q2"
+          ],
+          "adjustments": [
+            "Use: ‘The records agree/disagree because ___. Before production, ___ must be confirmed.’",
+            "Write a change note that updates a label, one view and the cutting list consistently, without creating a Catapult dimension.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m05-presentation",
+            "site-m05-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m05-s1-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m05-s1-check"
+              ]
+            },
+            "evidence": {
+              "state": "shared-capstone",
+              "shared_with_section_id": "m05-s3"
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m05-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m05-video",
+                "site-m05-presentation"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "m05-s2",
+          "title": "Drawings that agree with each other",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-RP-08",
+              "wording": "Use graphical communication techniques to present ideas for products and systems.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain drawings that agree with each other and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 5 capstone: Audit a design communication package.",
+          "formative_checks": [
+            "m05-s2-q1",
+            "m05-s2-q2"
+          ],
+          "adjustments": [
+            "Use: ‘The records agree/disagree because ___. Before production, ___ must be confirmed.’",
+            "Write a change note that updates a label, one view and the cutting list consistently, without creating a Catapult dimension.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m05-presentation",
+            "site-m05-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m05-s2-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m05-s2-check"
+              ]
+            },
+            "evidence": {
+              "state": "shared-capstone",
+              "shared_with_section_id": "m05-s3"
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m05-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m05-video",
+                "site-m05-presentation"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "m05-s3",
+          "title": "Cutting lists and material limits",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-RP-07",
+              "wording": "Collect data and information to develop engineered solutions.",
+              "source_id": "SRC-NESA-ENG"
+            },
+            {
+              "descriptor_id": "ETS-PI-04",
+              "wording": "Document design and production processes when developing projects.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain cutting lists and material limits and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 5 capstone: Audit a design communication package.",
+          "formative_checks": [
+            "m05-s3-q1",
+            "m05-s3-q2"
+          ],
+          "adjustments": [
+            "Use: ‘The records agree/disagree because ___. Before production, ___ must be confirmed.’",
+            "Write a change note that updates a label, one view and the cutting list consistently, without creating a Catapult dimension.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m05-presentation",
+            "site-m05-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m05-s3-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m05-s3-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m05-capstone"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m05-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m05-video",
+                "site-m05-presentation"
+              ]
+            }
+          }
+        }
+      ],
+      "presentation_site_id": "site-m05-presentation",
+      "video_site_id": "site-m05-video",
+      "activity_site_id": "site-m05-activity",
+      "capstone_site_id": "site-m05-capstone"
+    },
+    {
+      "module_id": "m06",
+      "title": "Producing the Base and Frame",
+      "timing": {
+        "provisional_lessons": [
+          13,
+          14,
+          15,
+          18
+        ],
+        "week_range": [
+          5,
+          6,
+          7
+        ]
+      },
+      "outcome_codes": [
+        "TE4-PPM-01",
+        "TE4-MSC-01",
+        "TE4-SAF-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m06-s1",
+          "title": "Sequence work around dependencies",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-PI-04",
+              "wording": "Document design and production processes when developing projects.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain sequence work around dependencies and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 6 capstone: Plan a meaningful frame checkpoint.",
+          "formative_checks": [
+            "m06-s1-q1",
+            "m06-s1-q2"
+          ],
+          "adjustments": [
+            "Use: ‘The force enters at ___, travels through ___ and reaches ___. I would check ___ before ___ because ___.’",
+            "Explain how one alignment problem could affect a later component interaction elsewhere in the system.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m06-presentation",
+            "site-m06-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m06-s1-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m06-s1-check"
+              ]
+            },
+            "evidence": {
+              "state": "shared-capstone",
+              "shared_with_section_id": "m06-s3"
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m06-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m06-video",
+                "site-m06-presentation"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "m06-s2",
+          "title": "Structures carry forces through load paths",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-PI-01",
+              "wording": "Use materials, components, processes and technologies to develop engineering skills.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain structures carry forces through load paths and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 6 capstone: Plan a meaningful frame checkpoint.",
+          "formative_checks": [
+            "m06-s2-q1",
+            "m06-s2-q2"
+          ],
+          "adjustments": [
+            "Use: ‘The force enters at ___, travels through ___ and reaches ___. I would check ___ before ___ because ___.’",
+            "Explain how one alignment problem could affect a later component interaction elsewhere in the system.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m06-presentation",
+            "site-m06-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m06-s2-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m06-s2-check"
+              ]
+            },
+            "evidence": {
+              "state": "shared-capstone",
+              "shared_with_section_id": "m06-s3"
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m06-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m06-video",
+                "site-m06-presentation"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "m06-s3",
+          "title": "Check quality and record real evidence",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-RP-04",
+              "wording": "Investigate how engineering technologies and systems can improve production quality.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain check quality and record real evidence and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 6 capstone: Plan a meaningful frame checkpoint.",
+          "formative_checks": [
+            "m06-s3-q1",
+            "m06-s3-q2"
+          ],
+          "adjustments": [
+            "Use: ‘The force enters at ___, travels through ___ and reaches ___. I would check ___ before ___ because ___.’",
+            "Explain how one alignment problem could affect a later component interaction elsewhere in the system.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m06-presentation",
+            "site-m06-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m06-s3-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m06-s3-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m06-capstone"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m06-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m06-video",
+                "site-m06-presentation"
+              ]
+            }
+          }
+        }
+      ],
+      "presentation_site_id": "site-m06-presentation",
+      "video_site_id": "site-m06-video",
+      "activity_site_id": "site-m06-activity",
+      "capstone_site_id": "site-m06-capstone"
+    },
+    {
+      "module_id": "m07",
+      "title": "Components, Assembly and Quality",
+      "timing": {
+        "provisional_lessons": [
+          16,
+          17,
+          18,
+          22
+        ],
+        "week_range": [
+          7,
+          9
+        ]
+      },
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PPM-01",
+        "TE4-SAF-01",
+        "TE4-DES-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m07-s1",
+          "title": "Components form an interaction chain",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-PI-02",
+              "wording": "Select components, technologies and systems to make engineering solutions and projects.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain components form an interaction chain and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 7 capstone: Trace and respond to a quality fault.",
+          "formative_checks": [
+            "m07-s1-q1",
+            "m07-s1-q2"
+          ],
+          "adjustments": [
+            "Use: ‘I observed ___. One possible cause is ___ because ___. I need evidence of ___ before deciding.’",
+            "Explain how the same observation could have two different causes and propose evidence that would distinguish them.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m07-presentation",
+            "site-m07-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m07-s1-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m07-s1-check"
+              ]
+            },
+            "evidence": {
+              "state": "shared-capstone",
+              "shared_with_section_id": "m07-s3"
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m07-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m07-video",
+                "site-m07-presentation"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "m07-s2",
+          "title": "Quality depends on alignment and fit",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-RP-04",
+              "wording": "Investigate how engineering technologies and systems can improve production quality.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain quality depends on alignment and fit and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 7 capstone: Trace and respond to a quality fault.",
+          "formative_checks": [
+            "m07-s2-q1",
+            "m07-s2-q2"
+          ],
+          "adjustments": [
+            "Use: ‘I observed ___. One possible cause is ___ because ___. I need evidence of ___ before deciding.’",
+            "Explain how the same observation could have two different causes and propose evidence that would distinguish them.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m07-presentation",
+            "site-m07-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m07-s2-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m07-s2-check"
+              ]
+            },
+            "evidence": {
+              "state": "shared-capstone",
+              "shared_with_section_id": "m07-s3"
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m07-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m07-video",
+                "site-m07-presentation"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "m07-s3",
+          "title": "Stop, check, adjust and record",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-PI-04",
+              "wording": "Document design and production processes when developing projects.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain stop, check, adjust and record and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 7 capstone: Trace and respond to a quality fault.",
+          "formative_checks": [
+            "m07-s3-q1",
+            "m07-s3-q2"
+          ],
+          "adjustments": [
+            "Use: ‘I observed ___. One possible cause is ___ because ___. I need evidence of ___ before deciding.’",
+            "Explain how the same observation could have two different causes and propose evidence that would distinguish them.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m07-presentation",
+            "site-m07-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m07-s3-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m07-s3-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m07-capstone"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m07-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m07-video",
+                "site-m07-presentation"
+              ]
+            }
+          }
+        }
+      ],
+      "presentation_site_id": "site-m07-presentation",
+      "video_site_id": "site-m07-video",
+      "activity_site_id": "site-m07-activity",
+      "capstone_site_id": "site-m07-capstone"
+    },
+    {
+      "module_id": "m08",
+      "title": "Testing, Data and Redesign",
+      "timing": {
+        "provisional_lessons": [
+          19,
+          20
+        ],
+        "week_range": [
+          8
+        ]
+      },
+      "outcome_codes": [
+        "TE4-DES-01",
+        "TE4-MSC-01",
+        "TE4-SAF-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m08-s1",
+          "title": "Begin with a testable question",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-TE-01",
+              "wording": "Apply engineering processes to create and evaluate prototypes and working models.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain begin with a testable question and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 8 capstone: Make a redesign decision from repeated evidence.",
+          "formative_checks": [
+            "m08-s1-q1",
+            "m08-s1-q2"
+          ],
+          "adjustments": [
+            "Use: ‘I claim ___. The evidence is ___. This supports the claim because ___.’",
+            "Explain when median might be useful if one result is unusually high or low.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m08-presentation",
+            "site-m08-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m08-s1-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m08-s1-check"
+              ]
+            },
+            "evidence": {
+              "state": "shared-capstone",
+              "shared_with_section_id": "m08-s3"
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m08-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m08-video",
+                "site-m08-presentation"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "m08-s2",
+          "title": "Use repeated data, mean and range",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-TE-03",
+              "wording": "Work collaboratively to test, modify and improve engineered solutions.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain use repeated data, mean and range and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 8 capstone: Make a redesign decision from repeated evidence.",
+          "formative_checks": [
+            "m08-s2-q1",
+            "m08-s2-q2"
+          ],
+          "adjustments": [
+            "Use: ‘I claim ___. The evidence is ___. This supports the claim because ___.’",
+            "Explain when median might be useful if one result is unusually high or low.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m08-presentation",
+            "site-m08-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m08-s2-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m08-s2-check"
+              ]
+            },
+            "evidence": {
+              "state": "shared-capstone",
+              "shared_with_section_id": "m08-s3"
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m08-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m08-video",
+                "site-m08-presentation"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "m08-s3",
+          "title": "Reason from evidence and redesign carefully",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-TE-04",
+              "wording": "Use results of testing and evaluating to contribute to an engineering report.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain reason from evidence and redesign carefully and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 8 capstone: Make a redesign decision from repeated evidence.",
+          "formative_checks": [
+            "m08-s3-q1",
+            "m08-s3-q2"
+          ],
+          "adjustments": [
+            "Use: ‘I claim ___. The evidence is ___. This supports the claim because ___.’",
+            "Explain when median might be useful if one result is unusually high or low.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m08-presentation",
+            "site-m08-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m08-s3-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m08-s3-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m08-capstone"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m08-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m08-video",
+                "site-m08-presentation"
+              ]
+            }
+          }
+        }
+      ],
+      "presentation_site_id": "site-m08-presentation",
+      "video_site_id": "site-m08-video",
+      "activity_site_id": "site-m08-activity",
+      "capstone_site_id": "site-m08-capstone"
+    },
+    {
+      "module_id": "m09",
+      "title": "Engineering Report and Sustainability",
+      "timing": {
+        "provisional_lessons": [
+          21,
+          22,
+          23
+        ],
+        "week_range": [
+          9
+        ]
+      },
+      "outcome_codes": [
+        "TE4-SDP-01",
+        "TE4-DES-01",
+        "TE4-PDP-01",
+        "TE4-SAF-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m09-s1",
+          "title": "Build a report around the design journey",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-TE-04",
+              "wording": "Use results of testing and evaluating to contribute to an engineering report.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain build a report around the design journey and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 9 capstone: Write an evidence-led engineering judgement.",
+          "formative_checks": [
+            "m09-s1-q1",
+            "m09-s1-q2"
+          ],
+          "adjustments": [
+            "Use: ‘I claim ___. My evidence is ___. This matters because ___. A limitation is ___.’",
+            "Compare repair and replacement as end-of-life decisions and state what evidence would be needed before recommending either.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m09-presentation",
+            "site-m09-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m09-s1-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m09-s1-check"
+              ]
+            },
+            "evidence": {
+              "state": "shared-capstone",
+              "shared_with_section_id": "m09-s3"
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m09-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m09-video",
+                "site-m09-presentation"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "m09-s2",
+          "title": "Use claim, evidence and reasoning",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-TE-06",
+              "wording": "Use factors affecting design to evaluate the quality of engineered solutions.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain use claim, evidence and reasoning and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 9 capstone: Write an evidence-led engineering judgement.",
+          "formative_checks": [
+            "m09-s2-q1",
+            "m09-s2-q2"
+          ],
+          "adjustments": [
+            "Use: ‘I claim ___. My evidence is ___. This matters because ___. A limitation is ___.’",
+            "Compare repair and replacement as end-of-life decisions and state what evidence would be needed before recommending either.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m09-presentation",
+            "site-m09-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m09-s2-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m09-s2-check"
+              ]
+            },
+            "evidence": {
+              "state": "shared-capstone",
+              "shared_with_section_id": "m09-s3"
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m09-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m09-video",
+                "site-m09-presentation"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "m09-s3",
+          "title": "Think across environmental, social and economic needs",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-TE-05",
+              "wording": "Evaluate engineering technologies and systems developed to improve sustainability.",
+              "source_id": "SRC-NESA-ENG"
+            },
+            {
+              "descriptor_id": "ETS-RP-05",
+              "wording": "Explore engineered solutions that address societal needs and contribute to sustainability.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain think across environmental, social and economic needs and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 9 capstone: Write an evidence-led engineering judgement.",
+          "formative_checks": [
+            "m09-s3-q1",
+            "m09-s3-q2"
+          ],
+          "adjustments": [
+            "Use: ‘I claim ___. My evidence is ___. This matters because ___. A limitation is ___.’",
+            "Compare repair and replacement as end-of-life decisions and state what evidence would be needed before recommending either.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m09-presentation",
+            "site-m09-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m09-s3-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m09-s3-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m09-capstone"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m09-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m09-video",
+                "site-m09-presentation"
+              ]
+            }
+          }
+        }
+      ],
+      "presentation_site_id": "site-m09-presentation",
+      "video_site_id": "site-m09-video",
+      "activity_site_id": "site-m09-activity",
+      "capstone_site_id": "site-m09-capstone"
+    },
+    {
+      "module_id": "m10",
+      "title": "Demonstration, Evaluation and Connected Systems",
+      "timing": {
+        "provisional_lessons": [
+          24,
+          25
+        ],
+        "week_range": [
+          10
+        ]
+      },
+      "outcome_codes": [
+        "TE4-SDP-01",
+        "TE4-PDP-01",
+        "TE4-DES-01",
+        "TE4-SAF-01",
+        "TE4-PPM-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m10-s1",
+          "title": "Demonstrate function through evidence",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-ID-02",
+              "wording": "Describe products, systems and technologies developed by engineers and manufacturers.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain demonstrate function through evidence and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 10 capstone: Close the design loop with evidence and respect.",
+          "formative_checks": [
+            "m10-s1-q1",
+            "m10-s1-q2"
+          ],
+          "adjustments": [
+            "Use: ‘The evidence shows ___. Against the criterion, I judge ___. A realistic improvement is ___.’",
+            "Compare how maintenance and feedback sustain two unrelated systems while explicitly preserving their different purposes and cultural contexts.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m10-presentation",
+            "site-m10-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m10-s1-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m10-s1-check"
+              ]
+            },
+            "evidence": {
+              "state": "shared-capstone",
+              "shared_with_section_id": "m10-s3"
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m10-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m10-video",
+                "site-m10-presentation"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "m10-s2",
+          "title": "Evaluate product, process and learning",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-TE-06",
+              "wording": "Use factors affecting design to evaluate the quality of engineered solutions.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain evaluate product, process and learning and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 10 capstone: Close the design loop with evidence and respect.",
+          "formative_checks": [
+            "m10-s2-q1",
+            "m10-s2-q2"
+          ],
+          "adjustments": [
+            "Use: ‘The evidence shows ___. Against the criterion, I judge ___. A realistic improvement is ___.’",
+            "Compare how maintenance and feedback sustain two unrelated systems while explicitly preserving their different purposes and cultural contexts.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m10-presentation",
+            "site-m10-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m10-s2-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m10-s2-check"
+              ]
+            },
+            "evidence": {
+              "state": "shared-capstone",
+              "shared_with_section_id": "m10-s3"
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m10-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m10-video",
+                "site-m10-presentation"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "m10-s3",
+          "title": "Connected Aboriginal engineering systems",
+          "substantial_sequence": true,
+          "content_descriptors": [
+            {
+              "descriptor_id": "ETS-RP-01",
+              "wording": "Investigate engineered systems created by Aboriginal and Torres Strait Islander Peoples.",
+              "source_id": "SRC-NESA-ENG"
+            },
+            {
+              "descriptor_id": "ETS-RP-05",
+              "wording": "Explore engineered solutions that address societal needs and contribute to sustainability.",
+              "source_id": "SRC-NESA-ENG"
+            }
+          ],
+          "source_ids": [
+            "SRC-NESA-ENG",
+            "SRC-THEORY",
+            "SRC-LEARNING"
+          ],
+          "learning_intention": "Explain connected aboriginal engineering systems and use it in a source-safe engineering decision.",
+          "learning_sequence": [
+            "Introduce the idea with the module presentation and visual.",
+            "Model one worked connection.",
+            "Students read the named section and complete its two feedback-rich checks.",
+            "Use feedback before the linked module capstone."
+          ],
+          "evidence": "Two knowledge-check responses plus the Module 10 capstone: Close the design loop with evidence and respect.",
+          "formative_checks": [
+            "m10-s3-q1",
+            "m10-s3-q2"
+          ],
+          "adjustments": [
+            "Use: ‘The evidence shows ___. Against the criterion, I judge ___. A realistic improvement is ___.’",
+            "Compare how maintenance and feedback sustain two unrelated systems while explicitly preserving their different purposes and cultural contexts.",
+            "Chunk the named section, use visual steps and allow an approved oral conference before the typed response."
+          ],
+          "literacy_numeracy_digital": [
+            "Use the named technical vocabulary in a connected explanation.",
+            "Complete and review feedback in the browser; save only student-created formative evidence.",
+            "Apply the module's measurement, data or comparison demand where relevant."
+          ],
+          "safety_workplace": "Theory and website preparation do not authorise practical work. Any related handling, making, testing or demonstration remains teacher-controlled under current local procedures.",
+          "resources": [
+            "site-m10-presentation",
+            "site-m10-video"
+          ],
+          "site_destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m10-s3-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m10-s3-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m10-capstone"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m10-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "site-m10-video",
+                "site-m10-presentation"
+              ]
+            }
+          }
+        }
+      ],
+      "presentation_site_id": "site-m10-presentation",
+      "video_site_id": "site-m10-video",
+      "activity_site_id": "site-m10-activity",
+      "capstone_site_id": "site-m10-capstone"
+    }
+  ],
+  "assessment": {
+    "authorised_schedule": [
+      {
+        "component": "Project and Practical Task",
+        "weighting": "60%",
+        "timing": "end of Semester 1 and Semester 2"
+      },
+      {
+        "component": "Folio",
+        "weighting": "25%",
+        "timing": "end of Semester 1 and Semester 2"
+      },
+      {
+        "component": "Design Knowledge",
+        "weighting": "15%",
+        "timing": "end of Semester 1 and Semester 2"
+      }
+    ],
+    "notification_state": "Catapult-specific notifications, exact dates, marks, criteria, conditions and submission routes are Teacher to confirm.",
+    "student_route": "assessment.html"
+  },
+  "teacher_to_confirm": [
+    {
+      "id": "TTC-01",
+      "item": "Confirm the exact local timetable, lesson duration and whether the 25-block scaffold fits.",
+      "owner": "Teacher / faculty",
+      "affected_scope": "all blocks",
+      "due_before": "program issue"
+    },
+    {
+      "id": "TTC-02",
+      "item": "Confirm the intended pine cross-section, whether the 2500 mm/three-angle/one-glue-stick comparison-source statements are superseded, and whether a soldering iron has any role.",
+      "owner": "Teacher / faculty",
+      "affected_scope": "materials, design and production",
+      "due_before": "ordering or making"
+    },
+    {
+      "id": "TTC-03",
+      "item": "Nominate exact OnGuard modules, tools/machines, PPE, demonstrations, supervision and current local controls.",
+      "owner": "Teacher / faculty",
+      "affected_scope": "all practical blocks",
+      "due_before": "each practical"
+    },
+    {
+      "id": "TTC-04",
+      "item": "Nominate projectile, test area, procedure, exclusion controls and any performance threshold.",
+      "owner": "Teacher / faculty",
+      "affected_scope": "testing and demonstration",
+      "due_before": "Blocks 20 and 25"
+    },
+    {
+      "id": "TTC-05",
+      "item": "Issue Catapult-specific formal notifications with exact dates, marks, criteria, conditions and submission routes.",
+      "owner": "Head teacher / faculty",
+      "affected_scope": "assessment preparation and submission",
+      "due_before": "formal assessment"
+    },
+    {
+      "id": "TTC-06",
+      "item": "Confirm booklet redistribution and local cultural guidance before public release or extension beyond the named sources.",
+      "owner": "Head teacher / faculty",
+      "affected_scope": "public release and cultural extension",
+      "due_before": "public release"
+    }
+  ],
+  "site_mapping": {
+    "artifact_id": "catapult-teacher-program-site-map",
+    "version": "1.0.0",
+    "path": "teacher-program-site-map-v1.0.0.json",
+    "sha256": "0ca7f81fedce45b6825d75e23471980440b656a331de56179a3941b8e3666e81"
+  },
+  "delivery_register": {
+    "path": "Catapult-Delivery-Register-v1.0.0.docx",
+    "entries": [
+      {
+        "period": 1,
+        "week": 1,
+        "planned_focus": "Catapult as an engineered system",
+        "primary_type": "Site/theory",
+        "site_ids": [
+          "site-m01-s1-theory",
+          "site-m01-s1-check",
+          "site-m01-s2-theory",
+          "site-m01-s2-check",
+          "site-m01-video",
+          "site-m01-presentation",
+          "site-bank-01"
+        ],
+        "planned_evidence": "Checks m01-s1-q1 to m01-s2-q2; annotated system map.",
+        "outcome_codes": [
+          "TE4-MSC-01",
+          "TE4-PDP-01"
+        ],
+        "descriptor_ids": [
+          "ETS-ID-01",
+          "ETS-ID-02"
+        ],
+        "practical_authority": "not-required",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": 2,
+        "week": 1,
+        "planned_focus": "Brief, constraints and evidence",
+        "primary_type": "Project/folio",
+        "site_ids": [
+          "site-m01-s3-theory",
+          "site-m01-s3-check",
+          "site-m01-activity",
+          "site-m01-capstone",
+          "site-folio-01",
+          "site-bank-02"
+        ],
+        "planned_evidence": "Checks m01-s3-q1-q2; ala-m01; m01-capstone; Folio 1 brief and criteria.",
+        "outcome_codes": [
+          "TE4-DES-01",
+          "TE4-PPM-01"
+        ],
+        "descriptor_ids": [
+          "ETS-ID-03",
+          "ETS-RP-06"
+        ],
+        "practical_authority": "not-required",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": 3,
+        "week": 1,
+        "planned_focus": "Workshop orientation and readiness",
+        "primary_type": "Practical",
+        "site_ids": [
+          "site-m02-s1-theory",
+          "site-m02-s1-check",
+          "site-folio-05"
+        ],
+        "planned_evidence": "Teacher-controlled readiness record; student safety notes. Exact OnGuard modules and local controls are Teacher to confirm.",
+        "outcome_codes": [
+          "TE4-SAF-01"
+        ],
+        "descriptor_ids": [
+          "ETS-PI-03"
+        ],
+        "practical_authority": "teacher-controlled",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": 4,
+        "week": 2,
+        "planned_focus": "Tools, materials and planned safety",
+        "primary_type": "Site/theory",
+        "site_ids": [
+          "site-m02-s1-theory",
+          "site-m02-s1-check",
+          "site-m02-s2-theory",
+          "site-m02-s2-check",
+          "site-m02-s3-theory",
+          "site-m02-s3-check",
+          "site-m02-activity",
+          "site-m02-capstone",
+          "site-m02-video",
+          "site-m02-presentation",
+          "site-folio-02",
+          "site-bank-03"
+        ],
+        "planned_evidence": "Six Module 2 checks; ala-m02; m02-capstone; one source-aware Folio 2 finding.",
+        "outcome_codes": [
+          "TE4-SAF-01",
+          "TE4-MSC-01"
+        ],
+        "descriptor_ids": [
+          "ETS-PI-01",
+          "ETS-RP-02"
+        ],
+        "practical_authority": "not-required",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": 5,
+        "week": 2,
+        "planned_focus": "Teacher-approved material and tool-function practice",
+        "primary_type": "Practical",
+        "site_ids": [
+          "site-m02-s2-theory",
+          "site-m02-s2-check",
+          "site-m02-s3-theory",
+          "site-m02-s3-check",
+          "site-folio-05"
+        ],
+        "planned_evidence": "Teacher observation/readiness record and Folio 5 planning note; no automated competence claim.",
+        "outcome_codes": [
+          "TE4-SAF-01",
+          "TE4-PPM-01"
+        ],
+        "descriptor_ids": [
+          "ETS-PI-02",
+          "ETS-PI-03"
+        ],
+        "practical_authority": "teacher-controlled",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": 6,
+        "week": 3,
+        "planned_focus": "Energy stores and lever moments",
+        "primary_type": "Site/theory",
+        "site_ids": [
+          "site-m03-s1-theory",
+          "site-m03-s1-check",
+          "site-m03-s2-theory",
+          "site-m03-s2-check",
+          "site-m03-video",
+          "site-m03-presentation",
+          "site-bank-04"
+        ],
+        "planned_evidence": "Checks m03-s1-q1 to m03-s2-q2; labelled lever explanation and theory calculations.",
+        "outcome_codes": [
+          "TE4-MSC-01",
+          "TE4-PDP-01"
+        ],
+        "descriptor_ids": [
+          "ETS-RP-03",
+          "ETS-ID-02"
+        ],
+        "practical_authority": "not-required",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": 7,
+        "week": 3,
+        "planned_focus": "Woomera context and design reasoning",
+        "primary_type": "Project/folio",
+        "site_ids": [
+          "site-m03-s3-theory",
+          "site-m03-s3-check",
+          "site-m03-activity",
+          "site-m03-capstone",
+          "site-folio-02",
+          "site-bank-12"
+        ],
+        "planned_evidence": "Checks m03-s3-q1-q2; ala-m03; m03-capstone; source-aware Folio 2 entry.",
+        "outcome_codes": [
+          "TE4-PDP-01",
+          "TE4-DES-01"
+        ],
+        "descriptor_ids": [
+          "ETS-RP-01",
+          "ETS-RP-06"
+        ],
+        "practical_authority": "not-required",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": 8,
+        "week": 3,
+        "planned_focus": "Teacher-controlled lever observation",
+        "primary_type": "Practical",
+        "site_ids": [
+          "site-m03-s2-theory",
+          "site-m03-s2-check",
+          "site-folio-02"
+        ],
+        "planned_evidence": "Annotated observation and teacher-controlled practical record.",
+        "outcome_codes": [
+          "TE4-MSC-01",
+          "TE4-SAF-01"
+        ],
+        "descriptor_ids": [
+          "ETS-RP-03"
+        ],
+        "practical_authority": "teacher-controlled",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": 9,
+        "week": 4,
+        "planned_focus": "Force, energy, Newton's laws and fair prototypes",
+        "primary_type": "Site/theory",
+        "site_ids": [
+          "site-m04-s1-theory",
+          "site-m04-s1-check",
+          "site-m04-s2-theory",
+          "site-m04-s2-check",
+          "site-m04-s3-theory",
+          "site-m04-s3-check",
+          "site-m04-video",
+          "site-m04-presentation",
+          "site-bank-05"
+        ],
+        "planned_evidence": "Six Module 4 checks; energy-chain and fair-test reasoning.",
+        "outcome_codes": [
+          "TE4-MSC-01",
+          "TE4-PDP-01"
+        ],
+        "descriptor_ids": [
+          "ETS-RP-03",
+          "ETS-TE-01"
+        ],
+        "practical_authority": "not-required",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": 10,
+        "week": 4,
+        "planned_focus": "Prototype question and fair evidence",
+        "primary_type": "Practical",
+        "site_ids": [
+          "site-m04-s3-theory",
+          "site-m04-s3-check",
+          "site-m04-activity",
+          "site-m04-capstone",
+          "site-folio-07"
+        ],
+        "planned_evidence": "ala-m04; m04-capstone; prototype/test note that can later support Folio 7.",
+        "outcome_codes": [
+          "TE4-DES-01",
+          "TE4-SAF-01"
+        ],
+        "descriptor_ids": [
+          "ETS-TE-01",
+          "ETS-TE-03"
+        ],
+        "practical_authority": "teacher-controlled",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": 11,
+        "week": 5,
+        "planned_focus": "Ideas and drawings that agree",
+        "primary_type": "Site/theory",
+        "site_ids": [
+          "site-m05-s1-theory",
+          "site-m05-s1-check",
+          "site-m05-s2-theory",
+          "site-m05-s2-check",
+          "site-m05-video",
+          "site-m05-presentation",
+          "site-folio-03"
+        ],
+        "planned_evidence": "Checks m05-s1-q1 to m05-s2-q2; Folio 3 idea comparison; teacher-assigned paper drawings where applicable.",
+        "outcome_codes": [
+          "TE4-DES-01",
+          "TE4-PPM-01"
+        ],
+        "descriptor_ids": [
+          "ETS-RP-06",
+          "ETS-RP-08"
+        ],
+        "practical_authority": "not-required",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": 12,
+        "week": 5,
+        "planned_focus": "Cutting list, material arithmetic and design approval",
+        "primary_type": "Project/folio",
+        "site_ids": [
+          "site-m05-s3-theory",
+          "site-m05-s3-check",
+          "site-m05-activity",
+          "site-m05-capstone",
+          "site-folio-04",
+          "site-bank-06"
+        ],
+        "planned_evidence": "Checks m05-s3-q1-q2; ala-m05; m05-capstone; Folio 4 selection and consistency record.",
+        "outcome_codes": [
+          "TE4-DES-01",
+          "TE4-PPM-01"
+        ],
+        "descriptor_ids": [
+          "ETS-RP-07",
+          "ETS-PI-04"
+        ],
+        "practical_authority": "not-required",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": 13,
+        "week": 5,
+        "planned_focus": "Approved transition from design to making",
+        "primary_type": "Practical",
+        "site_ids": [
+          "site-m06-s1-theory",
+          "site-m06-s1-check",
+          "site-folio-04",
+          "site-folio-06"
+        ],
+        "planned_evidence": "Teacher approval/readiness record; first Folio 6 checkpoint; no website claim of practical competence.",
+        "outcome_codes": [
+          "TE4-PPM-01",
+          "TE4-SAF-01"
+        ],
+        "descriptor_ids": [
+          "ETS-PI-01",
+          "ETS-PI-02"
+        ],
+        "practical_authority": "teacher-controlled",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": 14,
+        "week": 6,
+        "planned_focus": "Production sequence, load paths and quality evidence",
+        "primary_type": "Site/theory",
+        "site_ids": [
+          "site-m06-s1-theory",
+          "site-m06-s1-check",
+          "site-m06-s2-theory",
+          "site-m06-s2-check",
+          "site-m06-s3-theory",
+          "site-m06-s3-check",
+          "site-m06-activity",
+          "site-m06-capstone",
+          "site-m06-video",
+          "site-m06-presentation",
+          "site-folio-05",
+          "site-bank-07"
+        ],
+        "planned_evidence": "Six Module 6 checks; ala-m06; m06-capstone; Folio 5 production-plan draft.",
+        "outcome_codes": [
+          "TE4-PPM-01",
+          "TE4-MSC-01"
+        ],
+        "descriptor_ids": [
+          "ETS-PI-04",
+          "ETS-RP-04"
+        ],
+        "practical_authority": "not-required",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": 15,
+        "week": 6,
+        "planned_focus": "Base/frame production and checkpoint evidence",
+        "primary_type": "Practical",
+        "site_ids": [
+          "site-m06-s1-theory",
+          "site-m06-s1-check",
+          "site-m06-s3-theory",
+          "site-m06-s3-check",
+          "site-folio-06"
+        ],
+        "planned_evidence": "Teacher practical observation; Folio 6 checkpoint and captioned optional image.",
+        "outcome_codes": [
+          "TE4-PPM-01",
+          "TE4-SAF-01"
+        ],
+        "descriptor_ids": [
+          "ETS-PI-01",
+          "ETS-PI-03"
+        ],
+        "practical_authority": "teacher-controlled",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": 16,
+        "week": 7,
+        "planned_focus": "Component interaction, alignment and quality",
+        "primary_type": "Site/theory",
+        "site_ids": [
+          "site-m07-s1-theory",
+          "site-m07-s1-check",
+          "site-m07-s2-theory",
+          "site-m07-s2-check",
+          "site-m07-s3-theory",
+          "site-m07-s3-check",
+          "site-m07-activity",
+          "site-m07-capstone",
+          "site-m07-video",
+          "site-m07-presentation"
+        ],
+        "planned_evidence": "Six Module 7 checks; ala-m07; m07-capstone quality decision.",
+        "outcome_codes": [
+          "TE4-MSC-01",
+          "TE4-PPM-01"
+        ],
+        "descriptor_ids": [
+          "ETS-PI-02",
+          "ETS-RP-04"
+        ],
+        "practical_authority": "not-required",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": 17,
+        "week": 7,
+        "planned_focus": "Teacher-approved assembly and quality checks",
+        "primary_type": "Practical",
+        "site_ids": [
+          "site-m07-s2-theory",
+          "site-m07-s2-check",
+          "site-m07-s3-theory",
+          "site-m07-s3-check",
+          "site-folio-06"
+        ],
+        "planned_evidence": "Teacher observation and Folio 6 checkpoint; practical authority remains outside the website.",
+        "outcome_codes": [
+          "TE4-SAF-01",
+          "TE4-PPM-01"
+        ],
+        "descriptor_ids": [
+          "ETS-PI-01",
+          "ETS-PI-03"
+        ],
+        "practical_authority": "teacher-controlled",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": 18,
+        "week": 7,
+        "planned_focus": "Production log and quality evidence conference",
+        "primary_type": "Project/folio",
+        "site_ids": [
+          "site-m06-s3-theory",
+          "site-m06-s3-check",
+          "site-m07-s3-theory",
+          "site-m07-s3-check",
+          "site-folio-05",
+          "site-folio-06",
+          "site-bank-08"
+        ],
+        "planned_evidence": "Updated approved production plan; selected quality checkpoints; teacher next-step note.",
+        "outcome_codes": [
+          "TE4-PPM-01",
+          "TE4-DES-01"
+        ],
+        "descriptor_ids": [
+          "ETS-PI-04",
+          "ETS-TE-02"
+        ],
+        "practical_authority": "not-required",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": 19,
+        "week": 8,
+        "planned_focus": "Testable questions, repeated data and redesign",
+        "primary_type": "Site/theory",
+        "site_ids": [
+          "site-m08-s1-theory",
+          "site-m08-s1-check",
+          "site-m08-s2-theory",
+          "site-m08-s2-check",
+          "site-m08-s3-theory",
+          "site-m08-s3-check",
+          "site-m08-video",
+          "site-m08-presentation",
+          "site-bank-09"
+        ],
+        "planned_evidence": "Six Module 8 checks; practice mean/range and claim-evidence-reasoning decision.",
+        "outcome_codes": [
+          "TE4-DES-01",
+          "TE4-MSC-01"
+        ],
+        "descriptor_ids": [
+          "ETS-TE-01",
+          "ETS-TE-04"
+        ],
+        "practical_authority": "not-required",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": 20,
+        "week": 8,
+        "planned_focus": "Teacher-controlled testing and one redesign decision",
+        "primary_type": "Practical",
+        "site_ids": [
+          "site-m08-s1-theory",
+          "site-m08-s1-check",
+          "site-m08-s2-theory",
+          "site-m08-s2-check",
+          "site-m08-s3-theory",
+          "site-m08-s3-check",
+          "site-m08-activity",
+          "site-m08-capstone",
+          "site-folio-07"
+        ],
+        "planned_evidence": "ala-m08; m08-capstone; teacher-authorised repeated results and Folio 7 redesign reasoning.",
+        "outcome_codes": [
+          "TE4-DES-01",
+          "TE4-SAF-01"
+        ],
+        "descriptor_ids": [
+          "ETS-TE-02",
+          "ETS-TE-03"
+        ],
+        "practical_authority": "teacher-controlled",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": 21,
+        "week": 9,
+        "planned_focus": "Engineering report and evidence-based judgement",
+        "primary_type": "Site/theory",
+        "site_ids": [
+          "site-m09-s1-theory",
+          "site-m09-s1-check",
+          "site-m09-s2-theory",
+          "site-m09-s2-check",
+          "site-m09-video",
+          "site-m09-presentation",
+          "site-bank-10"
+        ],
+        "planned_evidence": "Checks m09-s1-q1 to m09-s2-q2; repaired claim-evidence-reasoning paragraph.",
+        "outcome_codes": [
+          "TE4-DES-01",
+          "TE4-PDP-01"
+        ],
+        "descriptor_ids": [
+          "ETS-TE-04",
+          "ETS-TE-06"
+        ],
+        "practical_authority": "not-required",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": 22,
+        "week": 9,
+        "planned_focus": "Final teacher-approved adjustment and quality evidence",
+        "primary_type": "Practical",
+        "site_ids": [
+          "site-m07-s3-theory",
+          "site-m07-s3-check",
+          "site-m09-s2-theory",
+          "site-m09-s2-check",
+          "site-folio-06",
+          "site-folio-08"
+        ],
+        "planned_evidence": "Teacher observation, quality comparison and Folio 6/8 evidence selection.",
+        "outcome_codes": [
+          "TE4-DES-01",
+          "TE4-SAF-01"
+        ],
+        "descriptor_ids": [
+          "ETS-RP-04",
+          "ETS-TE-06"
+        ],
+        "practical_authority": "teacher-controlled",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": 23,
+        "week": 9,
+        "planned_focus": "Sustainability, report completion and assessment preparation",
+        "primary_type": "Project/folio",
+        "site_ids": [
+          "site-m09-s3-theory",
+          "site-m09-s3-check",
+          "site-m09-activity",
+          "site-m09-capstone",
+          "site-folio-08",
+          "site-bank-11",
+          "site-assessment"
+        ],
+        "planned_evidence": "Checks m09-s3-q1-q2; ala-m09; m09-capstone; Folio 8 evaluation and report draft.",
+        "outcome_codes": [
+          "TE4-SDP-01",
+          "TE4-DES-01"
+        ],
+        "descriptor_ids": [
+          "ETS-TE-05",
+          "ETS-RP-05"
+        ],
+        "practical_authority": "not-required",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": 24,
+        "week": 10,
+        "planned_focus": "Demonstration, evaluation and connected systems",
+        "primary_type": "Site/theory",
+        "site_ids": [
+          "site-m10-s1-theory",
+          "site-m10-s1-check",
+          "site-m10-s2-theory",
+          "site-m10-s2-check",
+          "site-m10-s3-theory",
+          "site-m10-s3-check",
+          "site-m10-activity",
+          "site-m10-capstone",
+          "site-m10-video",
+          "site-m10-presentation",
+          "site-folio-08",
+          "site-bank-12"
+        ],
+        "planned_evidence": "Six Module 10 checks; ala-m10; m10-capstone; respectful connected-systems explanation.",
+        "outcome_codes": [
+          "TE4-SDP-01",
+          "TE4-PDP-01",
+          "TE4-DES-01"
+        ],
+        "descriptor_ids": [
+          "ETS-RP-01",
+          "ETS-RP-05"
+        ],
+        "practical_authority": "not-required",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": 25,
+        "week": 10,
+        "planned_focus": "Teacher-controlled demonstration and final evidence check",
+        "primary_type": "Practical",
+        "site_ids": [
+          "site-m10-s1-theory",
+          "site-m10-s1-check",
+          "site-m10-s2-theory",
+          "site-m10-s2-check",
+          "site-folio-08",
+          "site-assessment"
+        ],
+        "planned_evidence": "Teacher observation; final criterion-evidence judgement; teacher-directed folio/export/submission record.",
+        "outcome_codes": [
+          "TE4-DES-01",
+          "TE4-SAF-01",
+          "TE4-PPM-01"
+        ],
+        "descriptor_ids": [
+          "ETS-TE-06",
+          "ETS-TE-03"
+        ],
+        "practical_authority": "teacher-controlled",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      }
+    ]
+  },
+  "coverage_summary": {
+    "modules": 10,
+    "named_theory_sections": 30,
+    "knowledge_check_questions": 60,
+    "capstones": 10,
+    "lesson_linked_activities": 10,
+    "activity_bank_items": 12,
+    "folio_stages": 8,
+    "videos": 10,
+    "presentations": 10,
+    "purposeful_visuals": 41,
+    "visual_assets_available": 42,
+    "provisional_lesson_blocks": 25
+  },
+  "integration_gap": {
+    "state": "resolved-by-integrator",
+    "detail": "teacher-resources.html links the final teaching program and delivery register; the frozen integration manifest binds the completed route and files."
+  },
+  "version_history": [
+    {
+      "version": "1.0.0",
+      "date": "2026-08-24",
+      "status": "local teacher review candidate",
+      "change": "Initial backward map of the frozen 10-module Catapult course into 25 provisional lesson blocks."
+    }
+  ],
+  "sign_off": {
+    "prepared_for_review": "",
+    "reviewed_by": "",
+    "approved_for_local_delivery_by": "",
+    "date": ""
+  },
+  "files": [
+    {
+      "path": "Catapult-25-Lesson-Teaching-Program-v1.0.0.docx",
+      "sha256": "e75d7681aafc3887117b796322a6919954ef23a435392d0d4235bbc78128ce7c",
+      "role": "editable_program"
+    },
+    {
+      "path": "Catapult-Delivery-Register-v1.0.0.docx",
+      "sha256": "18331e1353b5b8c8efb4c1936271fbe052ab5b9766b892d95c58e9c82c6e3ace",
+      "role": "delivery_register"
+    },
+    {
+      "path": "teacher-program-site-map-v1.0.0.json",
+      "sha256": "0ca7f81fedce45b6825d75e23471980440b656a331de56179a3941b8e3666e81",
+      "role": "site_map"
+    }
+  ],
+  "traceability_repair": {
+    "date": "2026-08-24",
+    "scope": "Hash and integrated-state repair only; the two DOCX artefacts and site-map content are unchanged.",
+    "site_mapping_sha256": "0ca7f81fedce45b6825d75e23471980440b656a331de56179a3941b8e3666e81",
+    "candidate_binding_sha256": "fb51b6378c9b68ccd5488aea04ad8122bf3b3fb42346a9f2503a7caca7c9d310",
+    "visual_manifest_sha256": "f181d43e3c66fc99f6050019fc83eed6e86660dac78cf8470dd8b77f5043b339"
+  }
+}

@@ -1,0 +1,553 @@
+{
+  "artifact": "integrated-course-candidate",
+  "version": "1.0.1",
+  "frozenAt": "2026-08-24T05:09:14.706Z",
+  "course": {
+    "title": "Year 8 Catapult",
+    "syllabus": "NSW Technology 7-8 Syllabus (2023)",
+    "implementation": "2026 current use",
+    "focusArea": "Engineering technologies and systems",
+    "sequence": "10 weeks",
+    "boundary": "This unit contributes one required focus area and does not claim whole-course coverage."
+  },
+  "counts": {
+    "routes": 15,
+    "modules": 10,
+    "theorySections": 30,
+    "knowledgeChecks": 60,
+    "capstones": 10,
+    "activityBankItems": 12,
+    "folioStages": 8,
+    "clickToLoadVideos": 10,
+    "teachingVisualsPlaced": 41,
+    "teachingVisualsAvailable": 42,
+    "presentationDecks": 10,
+    "presentationSlides": 80,
+    "files": 89
+  },
+  "authority": {
+    "sourceMap": {
+      "file": "work/build-records/source-map-v1.0.md",
+      "sha256": "43cabf0f401df6aa3e988dcbb33c55a7af17720cd65a66e35cf07ae0a7b76ff3"
+    },
+    "coreArtefactManifest": {
+      "file": "work/build-records/core-artefact-manifest-v1.0.md",
+      "sha256": "4605f5a6539901a893e2b754901340d3f08ff40d72765979230c5e7ee387e9b3"
+    },
+    "attachedBooklet": {
+      "source": "Attached source file: Catapult Booklet 2026.pdf",
+      "sha256": "2fd44bec93c0d652f7879c394c8060e5f4b75b3b43e29c64a65a6a3132e8a5c5",
+      "redistributed": false
+    },
+    "assessmentHandbook": {
+      "source": "Year 8 Assessment Booklet 2026.pdf",
+      "sha256": "33d4275c3f773c96e66bebea7b84b4e740ed686232d46c20d82766fdbfb99c4c"
+    }
+  },
+  "specialistInputs": {
+    "theory": {
+      "file": "work/specialist/theory-draft-v1.0.json",
+      "sha256": "ef6062783a5b688c9a97dad0cbb35e01be6c1297d3bd16c527c0a8a90d27a821"
+    },
+    "learningEvidence": {
+      "file": "work/specialist/learning-evidence-v1.0.json",
+      "sha256": "19b748a2d12da603bc8c55dc2d76c2a605ff20d64941b87716aa2f046fecadf9"
+    },
+    "videos": {
+      "file": "work/specialist/video-data-v1.0.json",
+      "sha256": "941047fe6dd17bf5cb62e3839b264808d96f9a6c7b012b8973703ddcd0c84d2d"
+    },
+    "visuals": {
+      "file": "work/specialist/visual-manifest-v1.0.json",
+      "sha256": "f181d43e3c66fc99f6050019fc83eed6e86660dac78cf8470dd8b77f5043b339"
+    },
+    "presentations": {
+      "file": "work/specialist/presentation-manifest-v1.0.json",
+      "sha256": "4e76efc81300793cd3c46c46355a6365e327b5925de3c154a9ea67e5382ffe19"
+    },
+    "teacherProgram": {
+      "file": "work/catapult-course-site/resources/teacher/teacher-program-manifest-v1.0.0.json",
+      "sha256": "2d4f723fd6313119a45d5394f8a8c5171ed3043f6612744b3324bb5f02abb623"
+    },
+    "teacherProgramSiteMap": {
+      "file": "work/catapult-course-site/resources/teacher/teacher-program-site-map-v1.0.0.json",
+      "sha256": "0ca7f81fedce45b6825d75e23471980440b656a331de56179a3941b8e3666e81"
+    }
+  },
+  "validation": {
+    "structural": "PASS: 15 routes, all local references resolved, 0 errors, 0 warnings",
+    "javascriptSyntax": "PASS: site.js, learning.js, folio-v2.js, build_course_site.mjs and validate_course_site.mjs",
+    "rendered1366": "PASS: 15/15 routes, no page overflow, broken referenced images or missing alt attributes",
+    "rendered390": "PASS: 15/15 routes, no page overflow, broken referenced images or missing alt attributes",
+    "interactions": "PASS: feedback, clues, answer persistence, 22 activity fields, capstone autosave, 126 structured folio controls, backup, evidence export and privacy-enhanced video loading",
+    "accessibility": "PASS: skip link first, labelled controls, logical misconception heading levels, responsive targets and no missing image alt attributes",
+    "browserConsole": "PASS: 30 desktop/mobile route checks with no console or page errors",
+    "folioPrint": "PASS: structured A4 render inspected with no clipped controls or evidence text",
+    "presentationPackage": "PASS"
+  },
+  "boundedExceptions": [
+    "Catapult-specific formal assessment notifications, exact dates, marks, criteria, conditions and submission routes were not supplied; the student assessment route is an evidence guide only.",
+    "The 25-lesson teacher program is a provisional planning scaffold; exact local timetable and period count are Teacher to confirm before issue.",
+    "Exact OnGuard modules, machine access, PPE, local risk controls and demonstrations are Teacher to confirm.",
+    "Projectile, test area, procedure and any performance threshold are Teacher to confirm.",
+    "The attached booklet says Year 7 while Steve directed Year 8; the source PDF remains unchanged.",
+    "The source wording “10mm² Pine” is ambiguous and is not reinterpreted.",
+    "The source booklet has not been redistributed in the site pending permission.",
+    "Local cultural guidance remains Teacher to confirm before adding local Community knowledge beyond the authoritative public sources."
+  ],
+  "publication": {
+    "authorised": false,
+    "state": "local candidate only",
+    "commit": false,
+    "push": false,
+    "deployment": false
+  },
+  "baselineDigest": "2f7ad8dc9bbbc511d8fa7a2e28492471ac4b1eb564afee5ad3dcba4eab16dd91",
+  "fileInventory": [
+    {
+      "path": "activities.html",
+      "bytes": 22850,
+      "sha256": "f66dcb3646ad9fd36b9be1b71f4f0d5ae33b9cb647623acb5403984c15036f74"
+    },
+    {
+      "path": "assessment.html",
+      "bytes": 4719,
+      "sha256": "12bf969b45978f25d3391b7704e098ef5311cf440c397016ee388498728cf381"
+    },
+    {
+      "path": "assets/visuals/baiames-ngunnhu-brewarrina.jpg",
+      "bytes": 82231,
+      "sha256": "7a11d65046c4eb47ae64046265fb39cd8c89be780b391a6bfd9543f932857a6a"
+    },
+    {
+      "path": "assets/visuals/catapult-assembly-quality.png",
+      "bytes": 2398536,
+      "sha256": "029c66f67c92fea65210e25eff0a288d46893e43028c80add6d972516104cce5"
+    },
+    {
+      "path": "assets/visuals/catapult-design-drawing-concept.png",
+      "bytes": 2606097,
+      "sha256": "d71a072f2ababf99dc5c985c59bfffb7e4df234457ec157a16bf2f2ab06f8594"
+    },
+    {
+      "path": "assets/visuals/catapult-fair-testing-concept.png",
+      "bytes": 2302061,
+      "sha256": "018b3b11e481ff305d58640d933a4cb62469a9181d715f9176220f3bf2857d63"
+    },
+    {
+      "path": "assets/visuals/catapult-hero-concept.png",
+      "bytes": 1696219,
+      "sha256": "fddcb10221b799e20e1eb8aeb17209c378f0fdf9ce5d2b8270c17d9a44e8a31d"
+    },
+    {
+      "path": "assets/visuals/catapult-materials-workshop.png",
+      "bytes": 2641077,
+      "sha256": "3be0c34760ac5add646a50282e9d8d3d16c35524b850ec8b5e485122b87ae684"
+    },
+    {
+      "path": "assets/visuals/diagrams/m01-criteria-constraints.svg",
+      "bytes": 3040,
+      "sha256": "cc232b20f54c3d86c380a5d765a27f8050e732f58c0cc610a3677771d18c3046"
+    },
+    {
+      "path": "assets/visuals/diagrams/m01-evidence-loop.svg",
+      "bytes": 6098,
+      "sha256": "60ef4cb23f5752f025071df4c50ce97379f6540a3d942f68cc178631a9d334ca"
+    },
+    {
+      "path": "assets/visuals/diagrams/m01-system-flow.svg",
+      "bytes": 4593,
+      "sha256": "c1011a3e383dbd8300e8417212a6305a1ab3f82dc9fe8c666d3c2d06cd3199a5"
+    },
+    {
+      "path": "assets/visuals/diagrams/m02-elastic-deformation.svg",
+      "bytes": 3977,
+      "sha256": "5847008c691545321050728871e1ec7845376611a2be978e760ab5a41353beba"
+    },
+    {
+      "path": "assets/visuals/diagrams/m02-pine-grain-knot.svg",
+      "bytes": 5444,
+      "sha256": "ef949b97aa5964a1573c33ba8568f91ea1119b5069b529a480468cbe84ab549a"
+    },
+    {
+      "path": "assets/visuals/diagrams/m02-tool-families.svg",
+      "bytes": 4070,
+      "sha256": "9a1552db5ae64357af0dbdda050addd589bebd9d0412e04961c81b177fa8b5ad"
+    },
+    {
+      "path": "assets/visuals/diagrams/m03-energy-stores.svg",
+      "bytes": 3749,
+      "sha256": "3ab7cb8843eb324eb386c5d9f5feba56a7d0f2ee6f7b6e2db516caa9cc4c8057"
+    },
+    {
+      "path": "assets/visuals/diagrams/m03-lever-anatomy.svg",
+      "bytes": 6825,
+      "sha256": "eb171ef6e77260ba47449cba40738573e6c2527e5cea14878b65dafc2a832dd2"
+    },
+    {
+      "path": "assets/visuals/diagrams/m03-woomera-principle.svg",
+      "bytes": 4119,
+      "sha256": "4d3c1a1cd068d2574fe9bd8833aa044d0f729e8d7a788e4a2d7a940f7e0776a2"
+    },
+    {
+      "path": "assets/visuals/diagrams/m04-energy-chain.svg",
+      "bytes": 4555,
+      "sha256": "663858270b613578b304c8b42cff364f6aef28bb1527e27aa72f61679b9b6561"
+    },
+    {
+      "path": "assets/visuals/diagrams/m04-fair-test.svg",
+      "bytes": 4572,
+      "sha256": "e4b618a192878b73ecb7ae7b35ada12c930f73ef830e7f0544394cf622ceb726"
+    },
+    {
+      "path": "assets/visuals/diagrams/m04-newton-laws.svg",
+      "bytes": 4158,
+      "sha256": "9c3c5b8c2dc6221617bfac9a8c2adb66077daac16d374bab6ac7fb1c33f277e2"
+    },
+    {
+      "path": "assets/visuals/diagrams/m05-cutting-list-logic.svg",
+      "bytes": 5649,
+      "sha256": "112b8b19b02bcf14d50347daf6f5081ed3d28e20d45894e5d7528d6b4a38f626"
+    },
+    {
+      "path": "assets/visuals/diagrams/m05-dimension-communication.svg",
+      "bytes": 6406,
+      "sha256": "e473be00953644549076dbe05404fe117a47c1939435d09b0bc5a77a619ca33d"
+    },
+    {
+      "path": "assets/visuals/diagrams/m05-drawing-views.svg",
+      "bytes": 3693,
+      "sha256": "db2b36b809fd2169e461f7bb5b871fa2e33599da6cf09670f9a5305847fa8859"
+    },
+    {
+      "path": "assets/visuals/diagrams/m06-frame-load-path.svg",
+      "bytes": 5481,
+      "sha256": "9513f90b062be50be63e693f5a06cf20e25372a4fd9e89cf2692b4b4e7b7e1f0"
+    },
+    {
+      "path": "assets/visuals/diagrams/m06-production-cycle.svg",
+      "bytes": 6373,
+      "sha256": "e241426756fd51be542f30a154958e1056c1cc693ea969be6134bc88eaf66eba"
+    },
+    {
+      "path": "assets/visuals/diagrams/m06-squareness-check.svg",
+      "bytes": 6065,
+      "sha256": "80780661372131412aa43858b73cf83f21cedbaca89d0b5bd7d13b17bd108d41"
+    },
+    {
+      "path": "assets/visuals/diagrams/m07-axle-alignment.svg",
+      "bytes": 6256,
+      "sha256": "4752b0884782dc5b511a75d6498c21a904220107f9e8f682505d3e9ed8c0a8b3"
+    },
+    {
+      "path": "assets/visuals/diagrams/m07-joint-evidence.svg",
+      "bytes": 4505,
+      "sha256": "f596375a5a12de314b704ec0e8e507851568918e52df287f141cee917092c900"
+    },
+    {
+      "path": "assets/visuals/diagrams/m07-quality-checkpoints.svg",
+      "bytes": 5351,
+      "sha256": "26021ebd74f489d11721e6e49450ec8507812996921cda033464e30cd48768f8"
+    },
+    {
+      "path": "assets/visuals/diagrams/m08-data-redesign.svg",
+      "bytes": 5557,
+      "sha256": "9ce2597de4edcc9cf082e15aef30e7deb24b5b79d1557f2ee5d2446ac0bc1b24"
+    },
+    {
+      "path": "assets/visuals/diagrams/m08-repeat-trials.svg",
+      "bytes": 5514,
+      "sha256": "07d47d194ab64dd740caee7474946076cbbabafa1126f3edd3feddb4f9f5ef63"
+    },
+    {
+      "path": "assets/visuals/diagrams/m08-variable-control.svg",
+      "bytes": 4205,
+      "sha256": "5da34526fb2196bb400746cad786919ec1173708f477b3345d4cd2de12c1a0f0"
+    },
+    {
+      "path": "assets/visuals/diagrams/m09-life-cycle.svg",
+      "bytes": 6282,
+      "sha256": "8abbba38faac54b2016308ccbef0c5a941e099db2548f7e0bc5a7dfc7af330c0"
+    },
+    {
+      "path": "assets/visuals/diagrams/m09-quality-sustainability.svg",
+      "bytes": 3939,
+      "sha256": "0177ee9cc5f7fb1f066704e938bd0a9ca2880a96c387a69ae21b0d70d59bc1b6"
+    },
+    {
+      "path": "assets/visuals/diagrams/m09-report-structure.svg",
+      "bytes": 5412,
+      "sha256": "50a6dd61b6e90b9432dfbd419efb6b1b3007c877e86b974ceceee02e57712bf9"
+    },
+    {
+      "path": "assets/visuals/diagrams/m10-connected-systems.svg",
+      "bytes": 4637,
+      "sha256": "46515358f1c816eb14f46f1d4fdbff91da1faebb2bc0ab010616e330be611068"
+    },
+    {
+      "path": "assets/visuals/diagrams/m10-evaluation-evidence.svg",
+      "bytes": 5482,
+      "sha256": "52be480fb0aed742db1cf99ac55f3d022e6355b94cb5e902e4bb3d882f30ce53"
+    },
+    {
+      "path": "assets/visuals/diagrams/m10-system-feedback.svg",
+      "bytes": 6285,
+      "sha256": "610ebb2a49e65d22f65e35cb305853d9885a6f43c093b95c36fbe58c32531608"
+    },
+    {
+      "path": "assets/visuals/elastic-energy-still-life.png",
+      "bytes": 2317949,
+      "sha256": "730735e75703a866d73ada1e8a976c71c75bd65bba7014e7a57562938c0b524e"
+    },
+    {
+      "path": "assets/visuals/evaluation-evidence-folio.png",
+      "bytes": 2227311,
+      "sha256": "6bd59ad03940624b8265fd7a8410bf13bfce7cb61f438d4284a36b46f5c59bea"
+    },
+    {
+      "path": "assets/visuals/lever-moment-still-life.png",
+      "bytes": 2264535,
+      "sha256": "2fda79c0a4d368cc468d4167239d798385c12c56f9f2a6c428c0eb67e3a40030"
+    },
+    {
+      "path": "assets/visuals/prototype-redesign-sequence.png",
+      "bytes": 2448717,
+      "sha256": "5371aa1e3ed29148f90dd18ecef394eda31c14c0b66b4b2065a15c0d719415cf"
+    },
+    {
+      "path": "assets/visuals/radiata-pine-grain-samples.png",
+      "bytes": 2620676,
+      "sha256": "ae899a54ba44a18705c15a16976a7ce4f190676b92a7e8d9cae9f1e6ef4ae3a7"
+    },
+    {
+      "path": "assets/visuals/README.md",
+      "bytes": 773,
+      "sha256": "93cc1cfd9f77012b1e9c4a1724a90cc84cb4209d578b36713c108166aa810951"
+    },
+    {
+      "path": "assets/visuals/timber-life-cycle-still-life.png",
+      "bytes": 2540425,
+      "sha256": "99a7face0f3137c60fc6b84e7ee64c912bec743585f424e5c16b1dc6ea6de4ce"
+    },
+    {
+      "path": "course-shell.js",
+      "bytes": 509,
+      "sha256": "3cffe7f8b680b82212776be7a36b6343c906661b3f61f1dab11273b41a09f3ae"
+    },
+    {
+      "path": "folio-v2.js",
+      "bytes": 12061,
+      "sha256": "0da27849ce968b91c320b7c89e25a08a1868ac26998ae5c671987bd9e678ecae"
+    },
+    {
+      "path": "folio.html",
+      "bytes": 59599,
+      "sha256": "9b74a768ae0b43e6103a1eab8db2ef9edbd8d1128d57186f78c2b499814099ff"
+    },
+    {
+      "path": "folio.js",
+      "bytes": 5120,
+      "sha256": "b2c334922a04fb0dbe55005ae4eeb2a99a82915dce90072acc8c38cd40e60dfb"
+    },
+    {
+      "path": "foundation-manifest-v1.0.md",
+      "bytes": 2199,
+      "sha256": "4a7b628f54ae955602b6dcdd55927e08cd2085e77c18b29c0d5f116d1faefe91"
+    },
+    {
+      "path": "index.html",
+      "bytes": 8910,
+      "sha256": "a1f5354149a3da792922e32d4b7e4450172fac7bfc795d0ec2f8717423eac5da"
+    },
+    {
+      "path": "learning.js",
+      "bytes": 3750,
+      "sha256": "f1019dc4527310c0232166f5b38ee2f2b198a165f516bab69bbefb49ef382ddd"
+    },
+    {
+      "path": "module-shell.js",
+      "bytes": 3346,
+      "sha256": "454abd7dd8b67eedaa0ed27a2b7cd7ff0a55a0c57afa140aba4566a69eb91fc2"
+    },
+    {
+      "path": "modules/module-01.html",
+      "bytes": 27333,
+      "sha256": "861caab44d9bb8d6b3b42bd1caf53bb351bf139d24d313764a6a01ca1b5c21a7"
+    },
+    {
+      "path": "modules/module-02.html",
+      "bytes": 27956,
+      "sha256": "9f32e77d058371a5ce796c1a1b075e315358bea70c586918452ef3f88e9b67ae"
+    },
+    {
+      "path": "modules/module-03.html",
+      "bytes": 28778,
+      "sha256": "078a86f94c441d0b304366d853286cc830fc6c322d6bc8a975c6c573916153b6"
+    },
+    {
+      "path": "modules/module-04.html",
+      "bytes": 26900,
+      "sha256": "10c11657f27475e47ee71d02a7522b034481ecb7da18a6a4b17307ea3664e328"
+    },
+    {
+      "path": "modules/module-05.html",
+      "bytes": 27332,
+      "sha256": "3a21029d1c2f71cf919395c33f224df73005e3ea65bfb4f5e08781e1ee530c30"
+    },
+    {
+      "path": "modules/module-06.html",
+      "bytes": 27478,
+      "sha256": "94e6a2cf98d8bd2ecd8f1ca01f3e71cfd456e14eeeebf81edf91f529b81a5e72"
+    },
+    {
+      "path": "modules/module-07.html",
+      "bytes": 27316,
+      "sha256": "6b869875f689ea1ddcf332368e18ef48a2f4f0a84bed5f0ba83702406a77fa0e"
+    },
+    {
+      "path": "modules/module-08.html",
+      "bytes": 26184,
+      "sha256": "387a9d645c27bcff84b2ebf1c2b1d2d95c22a32d38755bf4197eaf3f48372038"
+    },
+    {
+      "path": "modules/module-09.html",
+      "bytes": 27864,
+      "sha256": "a2731a4fb63bf5245a59239fd42946cd626a28e1f7cdaef509c2d1e5e4378179"
+    },
+    {
+      "path": "modules/module-10.html",
+      "bytes": 30276,
+      "sha256": "1ef991ae69c5c1eecae03843d27b7594ab846a4d844ddf671fefd94843cfd6ab"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1133,
+      "sha256": "ec4ced31c9f5f86b9508939a9d140fee82c5254898895c19dc245304f9124f8d"
+    },
+    {
+      "path": "resources/presentations/module-01-catapult-challenge.pptx",
+      "bytes": 1724100,
+      "sha256": "4a7f49229c09284a59149ab1bd942ae29fca8a31262ad7d763d8e5385e2e5743"
+    },
+    {
+      "path": "resources/presentations/module-02-workshop-readiness.pptx",
+      "bytes": 2609834,
+      "sha256": "f108bfc2e02fd6268e929ef0f1d5c87029397dd94dec1049ab84f7c396a75e63"
+    },
+    {
+      "path": "resources/presentations/module-03-levers-and-woomera.pptx",
+      "bytes": 2184446,
+      "sha256": "9e660b5f5c8916b7b0eb33fb2f75d0957e38d3a098a174d8df60317779564e4c"
+    },
+    {
+      "path": "resources/presentations/module-04-force-motion-energy.pptx",
+      "bytes": 2259841,
+      "sha256": "8c5cb2fbe5c926fcc399caa0b6b346b0caf7149c58e592d19e5d11f7b10083d7"
+    },
+    {
+      "path": "resources/presentations/module-05-buildable-design.pptx",
+      "bytes": 2574915,
+      "sha256": "63dc7e89a0ffa4420b97a1e09aecb6841b8c8cf39b796c331bce15bca7321bbf"
+    },
+    {
+      "path": "resources/presentations/module-06-base-and-frame.pptx",
+      "bytes": 2570131,
+      "sha256": "097115032a31785ce433030739d5c72a7168908a34c0f8f5f326e9c85b73bd45"
+    },
+    {
+      "path": "resources/presentations/module-07-assembly-quality.pptx",
+      "bytes": 2347738,
+      "sha256": "3e8531b45cc238ef56d8db3b6d91da38618063714e9674d00f01f34b4f1fac01"
+    },
+    {
+      "path": "resources/presentations/module-08-testing-redesign.pptx",
+      "bytes": 2228032,
+      "sha256": "2f7b81339f58998f665cd8c8254b66e1a491e047a3a236b6a5682fcf7188fa24"
+    },
+    {
+      "path": "resources/presentations/module-09-report-sustainability.pptx",
+      "bytes": 2477148,
+      "sha256": "4e8985725d0841724b3b67868067ad0113a6f178f139f3dcb04583ad4525f0d4"
+    },
+    {
+      "path": "resources/presentations/module-10-connected-systems.pptx",
+      "bytes": 2400713,
+      "sha256": "a21977a4b644e87c4138875fa0d0f9be39f6398aa40fd3c0c3659f573e080e4b"
+    },
+    {
+      "path": "resources/presentations/README.md",
+      "bytes": 462,
+      "sha256": "205b4b0cfd3690229872d85cec788ed58a7538c4588d2493d1e364c3ebf1910b"
+    },
+    {
+      "path": "resources/teacher/Catapult-25-Lesson-Teaching-Program-v1.0.0.docx",
+      "bytes": 38839,
+      "sha256": "e75d7681aafc3887117b796322a6919954ef23a435392d0d4235bbc78128ce7c"
+    },
+    {
+      "path": "resources/teacher/Catapult-Delivery-Register-v1.0.0.docx",
+      "bytes": 35729,
+      "sha256": "18331e1353b5b8c8efb4c1936271fbe052ab5b9766b892d95c58e9c82c6e3ace"
+    },
+    {
+      "path": "resources/teacher/README.md",
+      "bytes": 549,
+      "sha256": "d53a84eb6ee127a5e34c230282bb0bee8d53049032bfedeac389c429f903450f"
+    },
+    {
+      "path": "resources/teacher/teacher-program-manifest-v1.0.0.json",
+      "bytes": 137620,
+      "sha256": "2d4f723fd6313119a45d5394f8a8c5171ed3043f6612744b3324bb5f02abb623"
+    },
+    {
+      "path": "resources/teacher/teacher-program-site-map-v1.0.0.json",
+      "bytes": 69016,
+      "sha256": "0ca7f81fedce45b6825d75e23471980440b656a331de56179a3941b8e3666e81"
+    },
+    {
+      "path": "site.js",
+      "bytes": 1158,
+      "sha256": "4dc16cd8f9badc597470ec8603f4dc930dc7645002fe39f73531847459dffbea"
+    },
+    {
+      "path": "specialist-content/activities/README.md",
+      "bytes": 263,
+      "sha256": "545a9df3e16dc8350b2bd105739f5f852f279a8122ad5f392aa31cc85edf6e98"
+    },
+    {
+      "path": "specialist-content/assessment/README.md",
+      "bytes": 314,
+      "sha256": "c097efd713be484b5acb88578949545a7071986ddd59f3a3661a8015592b4907"
+    },
+    {
+      "path": "specialist-content/folio/README.md",
+      "bytes": 312,
+      "sha256": "a804f7f7b435ae355a3078c386ea4a71a8950752a5d1a3d7841097b2f72ff602"
+    },
+    {
+      "path": "specialist-content/knowledge-checks/README.md",
+      "bytes": 297,
+      "sha256": "6c1f72830449354e7d6a6fc65c92bde9f55898a0f3b1bb4a9c5559d0d171f6fc"
+    },
+    {
+      "path": "specialist-content/theory/README.md",
+      "bytes": 211,
+      "sha256": "4aa974b8129eb1d7d3dd34d747c50e882fd85a1c84b9c1838bba542e6017f2c5"
+    },
+    {
+      "path": "specialist-content/videos/README.md",
+      "bytes": 300,
+      "sha256": "3134c97ae4614f54ccf13a64f8bae248709a6fe489ae662da5e656a8f101790d"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 21962,
+      "sha256": "c195a69db7ca8e42f64c592c366cd98ddd2145d2fdbcb487289676ee639e6afa"
+    },
+    {
+      "path": "teacher-resources.html",
+      "bytes": 8170,
+      "sha256": "160bbf77a7efbb9f819c0a8afeec0070e5634728866a8e9b9f8334125b46fc3a"
+    }
+  ]
+}
