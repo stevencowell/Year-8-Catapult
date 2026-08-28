@@ -200,7 +200,7 @@
       const moduleTitle = document.querySelector('.module-hero h1')?.textContent?.trim() || `Module ${moduleNumber}`;
       const sections = [...document.querySelectorAll('.section-learning')].map(sectionEvidenceText);
       const heading = [
-        'Year 8 Catapult — Formative learning evidence',
+        'Catapult — Formative learning evidence',
         moduleTitle,
         'Student-created practice evidence — not proof of submission.',
         `Downloaded: ${new Date().toLocaleString()}`,
