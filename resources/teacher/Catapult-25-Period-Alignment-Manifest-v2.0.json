@@ -1153,13 +1153,13 @@
       "path": "resources/teacher/Catapult-25-Period-Teaching-Program-v2.0-Network-Benchmark.docx",
       "purpose": "editable-program",
       "version": "v2.0",
-      "sha256": "BCDE4614364CD07C1816D89FDEAA169103FF3DEEE065CC6F46518C65CAB95446"
+      "sha256": "B92C221FE0E9A362E0D5DBF92FE7641620E64F65972F42B92C759B1685F5650A"
     },
     {
       "path": "resources/teacher/Catapult-25-Period-Teaching-Program-v2.0-Network-Benchmark.pdf",
       "purpose": "rendered-program",
       "version": "v2.0",
-      "sha256": "43CFE79D42297B4F631939542DBAC1597CB3D705182B0DF57B9E4E93749B9F3B"
+      "sha256": "130C417D8DF75AEC0B9614B66325133E148FC2DE662F90C79A9D00B08F164616"
     },
     {
       "path": "resources/teacher/Catapult-25-Period-Alignment-Manifest-v2.0.json",
